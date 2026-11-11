@@ -1,0 +1,82 @@
+{
+  "asOfPatch": "Halloween 2026 + Gameplay Update (2026-10-30)",
+  "sources": [
+    {
+      "label": "deadlock.wiki — Items",
+      "url": "https://deadlock.wiki/Items"
+    },
+    {
+      "label": "deadlock.wiki — The Curiosity Shop",
+      "url": "https://deadlock.wiki/Shop"
+    },
+    {
+      "label": "deadlock.wiki — Extra Slots",
+      "url": "https://deadlock.wiki/Extra_Slots"
+    },
+    {
+      "label": "deadlock-api.com item data",
+      "url": "https://api.deadlock-api.com/v1/assets/items"
+    }
+  ],
+  "flags": [
+    "The wiki's Extra Slots page was last changed Nov 2025, so slot rules are not confirmed against the Sept 2026 shop rebuild — check in-game.",
+    "Category investment bonus values are deliberately not shown: they could not be verified for the current patch."
+  ],
+  "categories": [
+    {
+      "slot": "weapon",
+      "name": "Weapon",
+      "color": "var(--weapon)",
+      "what": "Gun damage, fire rate, ammo, headshots, bullet lifesteal. Buy these on heroes whose damage comes from shooting.",
+      "bonus": "Every Weapon item you buy also gives bonus Weapon Damage."
+    },
+    {
+      "slot": "vitality",
+      "name": "Vitality",
+      "color": "var(--vitality)",
+      "what": "Health, regeneration, bullet and spirit resist, stamina, sustain and escapes. Every hero buys some.",
+      "bonus": "Every Vitality item you buy also gives bonus Health."
+    },
+    {
+      "slot": "spirit",
+      "name": "Spirit",
+      "color": "var(--spirit)",
+      "what": "Ability damage (Spirit Power), cooldown reduction, ability range, duration and charges. Buy these on heroes whose damage comes from abilities.",
+      "bonus": "Every Spirit item you buy also gives bonus Spirit Power."
+    }
+  ],
+  "rules": [
+    {
+      "title": "Four price tiers",
+      "text": "Every item costs 800, 1,600, 3,200 or 6,400 souls. All items in a tier cost the same."
+    },
+    {
+      "title": "9 + 3 slots",
+      "text": "You start with 9 item slots that can hold any item. Each enemy Walker you destroy unlocks one of 3 extra (\"flex\") slots."
+    },
+    {
+      "title": "Max 4 active items",
+      "text": "Active items (marked ACTIVE) go on extra hotkeys. You can own at most 4 of them at once."
+    },
+    {
+      "title": "Upgrades discount",
+      "text": "Some items build out of a cheaper component. Upgrading consumes the component and subtracts its price from the new item."
+    },
+    {
+      "title": "Selling",
+      "text": "Selling refunds 50%. If you haven't left the shop area since buying, you get the full price back, so misclicks are free."
+    },
+    {
+      "title": "Where to shop",
+      "text": "Your base shop, a side shop by each lane's first Guardian (it closes for good once that Guardian dies) and two secret shops in the underground tunnels that both teams can use."
+    }
+  ],
+  "principles": [
+    "You don't have to go back to base: walk to the nearest shop (lane shops are close) whenever you have 800+ souls.",
+    "Early: spend souls as soon as you can on 800-cost items. Several cheap items beat saving for one expensive item.",
+    "Buy for your damage type: gun heroes buy Weapon, ability heroes buy Spirit, and everyone buys a few Vitality items.",
+    "Getting killed by guns? Buy bullet resist. Getting killed by abilities? Buy spirit resist.",
+    "Later: sell your 800-cost items to make room for 3,200/6,400 items once your slots are full.",
+    "Not sure what to buy? Open the hero in the Heroes tab: it shows what players actually buy on that hero, by game phase."
+  ]
+}

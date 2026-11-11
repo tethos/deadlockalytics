@@ -1,0 +1,177 @@
+{
+  "asOfPatch": "Halloween 2026 + Gameplay Update (2026-10-30)",
+  "method": "Tips are written from each hero's current in-game ability text (deadlock-api.com game data) plus general MOBA reasoning. They are starting points, not pro advice. Hero difficulty is Valve's own 'complexity' rating from the game files.",
+  "sources": [
+    {
+      "label": "deadlock-api.com hero & ability data",
+      "url": "https://api.deadlock-api.com/v1/assets/heroes"
+    },
+    {
+      "label": "deadlock.wiki — Heroes",
+      "url": "https://deadlock.wiki/Heroes"
+    }
+  ],
+  "flags": [
+    "The six heroes released in October 2026 (Rat King, Baba, Solomon, Deadman Danny, Violet, Nurse Harrow) are brand new: guides and builds are still settling."
+  ],
+  "beginnerPicks": [
+    {
+      "hero": "Abrams",
+      "why": "Very forgiving. Siphon Life heals you while damaging everyone nearby, and Infernal Resilience turns damage taken into regeneration, so mistakes rarely end in death. Close-range shotgun means aim matters less. Teaches you to engage with Shoulder Charge and finish with Seismic Impact."
+    },
+    {
+      "hero": "Seven",
+      "why": "Easy damage and great wave-clear: Power Surge makes your bullets chain shock between enemies, and Lightning Ball hits everything in its path. Static Charge is a simple stun. Lets you learn map movement and economy without needing perfect aim."
+    },
+    {
+      "hero": "McGinnis",
+      "why": "Turrets do damage for you while you focus on positioning, Medicinal Specter keeps you and allies healthy in lane, and Spectral Wall is a strong 'get away from me' tool. Strong at defending objectives, which is where new players spend a lot of time."
+    },
+    {
+      "hero": "Haze",
+      "why": "Straightforward gun hero: Fixation rewards simply keeping your crosshair on one target, Smoke Bomb is an easy escape or flank, and Bullet Dance auto-aims for you. Good for learning weapon itemization. Squishy, so it also teaches positioning."
+    },
+    {
+      "hero": "Infernus",
+      "why": "Afterburn builds burn damage just from shooting, so you deal damage even with average aim. Flame Dash is a reliable escape and chase tool, and the ultimate is a simple 'run in and stun everyone'. Durable enough to survive learning."
+    },
+    {
+      "hero": "Wraith",
+      "why": "A simple ranged carry: Full Auto boosts fire rate, Card Trick gives free poke, Project Mind teleports you out of trouble, and Telekinesis is a point-and-click lockdown that sets up kills for your team."
+    }
+  ],
+  "heroes": {
+    "Abrams": {
+      "tip": "Shoulder Charge an enemy into a wall to stun them, then follow with Siphon Life. Don't fight at long range — your shotgun only works up close."
+    },
+    "Apollo": {
+      "tip": "Riposte deflects the next attack: use it just before you get hit, not randomly. Disengaging Sigil leaps you backwards, so save it as your escape."
+    },
+    "Baba": {
+      "tip": "Threadsap steals enemy Spirit, so poke spirit heroes with it. Baba's Brew cycles between barrier, silence and burn — check which effect is up before throwing it."
+    },
+    "Bebop": {
+      "tip": "Grapple Arm pulls the first character it hits, so don't throw it through your own troopers. Classic combo: hook → Exploding Uppercut → Sticky Bomb. Grapple can also save allies."
+    },
+    "Billy": {
+      "tip": "Billy is a melee brawler: your Blasted passive restores ammo on melee hits. Rising Ram's cooldown is halved when it connects, so land it on a target instead of using it to travel."
+    },
+    "Calico": {
+      "tip": "Ava hides you on the minimap and makes you faster, so use it to rotate and flank unseen. Gloom Bombs hurt most when enemies are hit by many bombs — throw them at grouped or stunned targets."
+    },
+    "Celeste": {
+      "tip": "Hit enemies with Light Eater first: afterwards your attacks deal extra spirit damage and heal you. Dazzling Trick silences nearby enemies if its barrier breaks, so pop it when they focus you."
+    },
+    "Deadman Danny": {
+      "tip": "Chimera Mk1 lets you fly, but overheating forces a dive — watch your heat. Strix Salvo mines explode when enemies step near them, so lay them on escape routes or in front of a wave."
+    },
+    "Drifter": {
+      "tip": "Eternal Night blinds enemies and isolates them — use it to pick off one target, ideally someone far from their team. Stalker's Mark lets you jump to a bleeding enemy, so mark first and then engage."
+    },
+    "Dynamo": {
+      "tip": "Singularity pulls in and stuns several enemies: wait for them to group up, ideally with Quantum Entanglement to teleport into position. Rejuvenating Aurora heals the whole team while you can still dash and melee."
+    },
+    "Graves": {
+      "tip": "Jar of Dead charges up whenever anything dies near you, so stay close to trooper waves and fights. Grasping Hands immobilizes along a line — great for blocking a chokepoint."
+    },
+    "Grey Talon": {
+      "tip": "A long-range hero: fight from a distance with Charged Shot. Lay Spirit Snare on a flank route to protect yourself. Guided Owl is a long-range owl you steer yourself that stuns on impact — use it to finish or stop fleeing enemies."
+    },
+    "Haze": {
+      "tip": "Keep shooting the same target: Fixation stacks on each hit, and headshots stack 3× faster. Sleep Dagger first, then position before you start shooting. Smoke Bomb doesn't break when you use items."
+    },
+    "Holliday": {
+      "tip": "Headshots with Crackshot slow your target, so practice aiming at heads. Bounce Pad gives the whole team mobility, and using it extends Spirit Lasso — combo bounce → lasso."
+    },
+    "Infernus": {
+      "tip": "Just keep shooting: Afterburn builds burn damage over time. Napalm also slows. Use Flame Dash to chase or escape, and Concussive Combustion once you're in the middle of the enemy team."
+    },
+    "Ivy": {
+      "tip": "Ivy works best tethered to one ally with Kudzu Connection. Stone Form makes you invulnerable and heals — use it to dodge a burst. Air Drop can carry an ally into or out of a fight."
+    },
+    "Kelvin": {
+      "tip": "Ice Path is your team's highway: use it to rotate, chase or escape. Frost Grenade heals allies and slows enemies. Frozen Shelter can save a dying teammate — learn when to use it."
+    },
+    "Lady Geist": {
+      "tip": "Your abilities cost your own health, so keep Life Drain running to refill it. Soul Exchange swaps health levels with an enemy — best when you're low and they're high."
+    },
+    "Lash": {
+      "tip": "Ground Strike hits harder the farther you fall, so jump and Grapple high first. Grapple also resets your air jumps and dashes. Death Slam lifts several enemies — wait until they group up."
+    },
+    "McGinnis": {
+      "tip": "Place Mini Turrets before a fight starts, not in the middle of it. Spectral Wall splits a fight in two — trap one enemy on your side. Turrets deal less damage to troopers and objectives."
+    },
+    "Mina": {
+      "tip": "Love Bites builds a burst of damage from your bullets and abilities, so trade often. Sanguine Retreat makes you briefly untargetable and can be recast, so it's both an engage and an escape."
+    },
+    "Mirage": {
+      "tip": "Traveler teleports you anywhere on the map, but damage or a stun interrupts it — cast it somewhere safe. Fire Scarabs steal life and reduce enemy damage: put them on the biggest threat."
+    },
+    "Mo & Krill": {
+      "tip": "Burrow in, jump out (it deals damage), then Combo to hold one target in place. Combo keeps them stuck while your team kills them. Scorn heals you more when it hits heroes."
+    },
+    "Nurse Harrow": {
+      "tip": "Healing Needles turn your gun into a healing tool for allies; dealing damage refills charges. Leech Therapy eats away enemy buffs. Enemies looking at Lurking Terrors build up terror."
+    },
+    "Paige": {
+      "tip": "Support hero: Plot Armor gives an ally a barrier and bonus weapon damage, and Rallying Charge heals allies across the whole map. Captivating Read immobilizes after a delay — aim it where enemies are going."
+    },
+    "Paradox": {
+      "tip": "Paradoxical Swap trades places with an enemy — pull a carry into your team. Time Wall blocks enemy bullets and projectiles. Pulse Grenade + Kinetic Carbine is a strong poke combo."
+    },
+    "Pocket": {
+      "tip": "Flying Cloak + teleport is your mobility: send it forward, then recast to blink to it. Enchanter's Satchel makes you hide in your suitcase — use it to dodge bursts and ultimates."
+    },
+    "Rat King": {
+      "tip": "Royal Pestments gives a barrier that can deflect bullets back while it holds. Rat Swarm reduces bullet resist with every bite, so attack together with gun allies. The banner (ultimate) helps your whole team."
+    },
+    "Rem": {
+      "tip": "Rem supports through allies: Tag Along jumps to a teammate and heals you both. Lil Helpers can collect boxes and even buy items for you remotely. Naptime stops enemies from using movement abilities."
+    },
+    "Seven": {
+      "tip": "Power Surge chains shock damage between enemies — great for clearing waves. Static Charge stuns after a short delay, so cast it on a target that can't easily run. Storm Cloud needs line of sight."
+    },
+    "Shiv": {
+      "tip": "Bloodletting delays part of the damage you take: activate it to clear some of that stored damage. Killing Blow executes low-health enemies and can be recast if you get the kill."
+    },
+    "Silver": {
+      "tip": "Slam Fire instantly reloads your gun and boosts fire rate for a few shots. Entangling Bola stops movement abilities and stamina — throw it at someone trying to escape."
+    },
+    "Sinclair": {
+      "tip": "Valve's highest-complexity hero (4). Rabbit Hex turns enemies into rabbits that take more damage; Audience Participation copies an enemy's ultimate. Probably not your first pick."
+    },
+    "Solomon": {
+      "tip": "Bishop stays in place until you move it. Rook Battery bounces off walls — use walls for angled immobilizes. Kingside Knight on yourself gives double barrier."
+    },
+    "The Doorman": {
+      "tip": "Doorway connects two doors that players and most projectiles can travel through — set up escapes or surprise flanks. Hotel Guest removes an enemy from the fight for a short time."
+    },
+    "Venator": {
+      "tip": "Gutshot stuns enemies pushed against a wall, so fight near walls. Ira Domini's final stake executes low-health enemies — save it for the kill."
+    },
+    "Victor": {
+      "tip": "Victor wants to take damage: Pain Battery charges from damage taken. Aura of Suffering also hurts you, so watch your health. Shocking Reanimation revives you after lethal damage."
+    },
+    "Vindicta": {
+      "tip": "Stay at long range. Stake tethers enemies in place, and Assassinate is a long-range charged shot (full damage after 1 second scoped). Flight makes you a target, so use it carefully."
+    },
+    "Violet": {
+      "tip": "Still Life deals damage over time while you keep looking at one hero — keep them in view. Abstract Landscape blocks vision and grants your allies Spirit. Flow State's trail boosts allies' slides."
+    },
+    "Viscous": {
+      "tip": "The Cube protects an ally (or you) from damage, but they can't act while cubed. Goo Ball bounces off walls and stuns on impact — use it to engage. Splatter puddles slow enemies."
+    },
+    "Vyper": {
+      "tip": "Screwjab Dagger stacks damage and slow on the same target — commit to one enemy. Lethal Venom deals more damage the lower the target's health, so finish with it."
+    },
+    "Warden": {
+      "tip": "Binding Word immobilizes enemies who don't move far enough away in time. Alchemical Flask reduces enemy weapon damage. Last Stand gives big resistances while channeling."
+    },
+    "Wraith": {
+      "tip": "Full Auto boosts fire rate and adds spirit damage — your main damage window. Project Mind is a teleport: escape with it or use it to jump onto a kill. Telekinesis lifts one enemy for your team."
+    },
+    "Yamato": {
+      "tip": "Power Slash charges for 1.4 seconds — release early for less damage. Shadow Transformation refreshes your abilities and makes you immune to negative effects. Crimson Slash heals you when it hits heroes."
+    }
+  }
+}

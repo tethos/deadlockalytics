@@ -1,0 +1,6150 @@
+[
+ {
+  "id": 3776945997,
+  "name": "Extra Charge",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/extra_charge.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Bonus Ability Charges",
+    "value": "1",
+    "cls": "cast"
+   },
+   {
+    "label": "Bonus Spirit Power for Charged Abilities",
+    "value": "7",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 968099481,
+  "name": "Extra Spirit",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/extra_spirit.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "10",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2462046703,
+  "name": "Golden Goose Egg",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/goose_egg.webp",
+  "text": "Gain <span class=\"highlight\">souls over time</span>, as long as you are alive.",
+  "props": [
+   {
+    "label": "Damage Penalty",
+    "value": "-12%",
+    "cls": ""
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "1m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1",
+    "cls": "healing"
+   },
+   {
+    "label": "Soul Value per Minute",
+    "value": "80",
+    "cls": "souls"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1998374645,
+  "name": "Mystic Burst",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_burst.webp",
+  "text": "Charges up over time with <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span>, causing abilities dealing more than <span class=\"highlight\">80</span> damage to deal additional damage.",
+  "props": [
+   {
+    "label": "Bonus Damage",
+    "value": "40",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Charge-Up Time",
+    "value": "14s",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 754480263,
+  "name": "Mystic Expansion",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_reach.webp",
+  "text": "Imbue an ability to increase its <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span>.",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "20%",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1439347412,
+  "name": "Mystic Regeneration",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_regen.webp",
+  "text": "Dealing <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> to enemy Heroes grants you Bonus <span class=\"inline-attribute-label Regen\">regeneration</span>. Stacks when dealing damage to different heroes.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Regeneration",
+    "value": "4 HP/s",
+    "cls": "healing"
+   },
+   {
+    "label": "Regeneration Duration",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2922054143,
+  "name": "Rusted Barrel",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/rusted_barrel.webp",
+  "text": "Target an enemy to reduce their <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Bullet Resistance</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "60",
+    "cls": "health"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "32%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-8%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Cast Range",
+    "value": "32m",
+    "cls": "range"
+   },
+   {
+    "label": "Duration",
+    "value": "5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "16s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 465043967,
+  "name": "Spirit Strike",
+  "slot": "spirit",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_strike.webp",
+  "text": "When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, deal extra <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> with the attack and reduce the target's <span class=\"highlight\">Spirit Resist</span>.<span class=\"diminish\"><br><br>Cooldown is 2x longer for Light Melee hits.</span>",
+  "props": [
+   {
+    "label": "Spirit Damage",
+    "value": "40",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-6%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Duration",
+    "value": "6s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "8s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1150006784,
+  "name": "Arcane Surge",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/arcane_surge.webp",
+  "text": "After you <span class=\"highlight\">Dash-Jump</span>, the <span class=\"highlight\">next ability you use</span> within 7s will have bonus <span class=\"highlight\">Range, Duration,</span> and <span class=\"highlight\">Spirit Power</span>.",
+  "props": [
+   {
+    "label": "Stamina",
+    "value": "1",
+    "cls": ""
+   },
+   {
+    "label": "Stamina Recovery",
+    "value": "12%",
+    "cls": ""
+   },
+   {
+    "label": "Ability Range",
+    "value": "12%",
+    "cls": "distance"
+   },
+   {
+    "label": "Ability Duration",
+    "value": "15%",
+    "cls": "duration"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "20",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cast Window",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Extra Stamina"
+  ]
+ },
+ {
+  "id": 2971868509,
+  "name": "Bullet Resist Shredder",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/bullet_resist_shredder.webp",
+  "text": "Reduces <span class=\"highlight\">Bullet Resist</span> on enemies when you deal <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span>.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "9%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "9%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-10%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1976391348,
+  "name": "Cold Front",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/cold_front.webp",
+  "text": "Release an expanding ice blast that deals <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> and <span class=\"highlight\">Slows</span> targets it hits.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "6%",
+    "cls": ""
+   },
+   {
+    "label": "Damage",
+    "value": "95",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Move Speed",
+    "value": "48%",
+    "cls": "slow"
+   },
+   {
+    "label": "Duration",
+    "value": "4s",
+    "cls": "duration"
+   },
+   {
+    "label": "End Radius",
+    "value": "10m",
+    "cls": "distance"
+   },
+   {
+    "label": "Cooldown",
+    "value": "25s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 380806748,
+  "name": "Compress Cooldown",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/improved_cooldown.webp",
+  "text": "Imbue an ability to reduce its <span class=\"highlight\">Cooldown</span>.",
+  "props": [
+   {
+    "label": "Ability Cooldown Reduction",
+    "value": "18%",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2951612397,
+  "name": "Duration Extender",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/duration_extender.webp",
+  "text": "Imbue an ability to increase its <span class=\"highlight\">Duration</span>.",
+  "props": [
+   {
+    "label": "Ability Duration",
+    "value": "22%",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 7409189,
+  "name": "Improved Spirit",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/improved_spirit.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "18",
+    "cls": ""
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.5",
+    "cls": "healing"
+   }
+  ],
+  "components": [
+   "Extra Spirit"
+  ]
+ },
+ {
+  "id": 1102081447,
+  "name": "Mystic Slow",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_slow.webp",
+  "text": "When the target takes <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span>, they have their <span class=\"highlight\">Move Speed</span> reduced.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed",
+    "value": "24%",
+    "cls": "slow"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-12%",
+    "cls": "slow"
+   },
+   {
+    "label": "Duration",
+    "value": "2s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2081037738,
+  "name": "Mystic Vulnerability",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_vulnerability.webp",
+  "text": "When an enemy takes <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span>, they have their <span class=\"inline-attribute-label SpiritResist\">spirit resist</span> reduced.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "8%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-8%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 84321454,
+  "name": "Quicksilver Reload",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/quicksilver_reload.webp",
+  "text": "Your imbued ability charges up over time with <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span>, <span class=\"inline-attribute-label BonusFireRate\">bonus fire rate</span>, and <span class=\"highlight\">reloads bullets</span> on use.",
+  "props": [
+   {
+    "label": "Damage",
+    "value": "44",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "10%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Bullets Reloaded",
+    "value": "100%",
+    "cls": "clipsize"
+   },
+   {
+    "label": "Charge-Up Time",
+    "value": "18s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1813726886,
+  "name": "Slowing Hex",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/slowing_hex.webp",
+  "text": "<span class=\"highlight\">Slows movement</span> of enemy target. Also <span class=\"highlight\">Silences</span> their <span class=\"highlight\">movement-based items and abilities</span>.<br><span class=\"diminish\">Increases the target's gravity.<br>Does not affect target's stamina usage.</span>",
+  "props": [
+   {
+    "label": "Sprint Speed",
+    "value": "0.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed",
+    "value": "16%",
+    "cls": "slow"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-26%",
+    "cls": "slow"
+   },
+   {
+    "label": "Cast Range",
+    "value": "25m",
+    "cls": "range"
+   },
+   {
+    "label": "Duration",
+    "value": "3.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "29s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1219329868,
+  "name": "Spirit Sap",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_sap.webp",
+  "text": "Target an enemy to <span class=\"highlight\">reduce their Spirit Resist</span> and <span class=\"highlight\">Spirit Power</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-9%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "-30",
+    "cls": "spirit"
+   },
+   {
+    "label": "Duration",
+    "value": "12s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "35m",
+    "cls": "range"
+   },
+   {
+    "label": "Cooldown",
+    "value": "22s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1925087134,
+  "name": "Suppressor",
+  "slot": "spirit",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/suppressor.webp",
+  "text": "When you deal <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> to enemies, you also reduce their <span class=\"highlight\">Fire Rate</span>.",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "6",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "8%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "28%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Duration",
+    "value": "4.5s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3144988365,
+  "name": "Decay",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/decay.webp",
+  "text": "Inflict <span class=\"highlight\">damage over time</span> to a target, dealing damage based on their current health.<br>Decay's damage is non-lethal and does not apply item procs.",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "65",
+    "cls": "health"
+   },
+   {
+    "label": "Bleed Damage",
+    "value": "1.95% DPS",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-55%",
+    "cls": "damage"
+   },
+   {
+    "label": "Cast Range",
+    "value": "20m",
+    "cls": "range"
+   },
+   {
+    "label": "Duration",
+    "value": "12s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "30s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2061878743,
+  "name": "Disarming Hex",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/disarming_hex.webp",
+  "text": "<span class=\"highlight\">Disarms</span> enemy target and reduces their <span class=\"highlight\">Bullet Resist</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-13%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Cast Range",
+    "value": "32m",
+    "cls": "range"
+   },
+   {
+    "label": "Duration",
+    "value": "4.25s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "16s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Rusted Barrel"
+  ]
+ },
+ {
+  "id": 1193964439,
+  "name": "Greater Expansion",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/greater_expansion.webp",
+  "text": "Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Ability Range",
+    "value": "30%",
+    "cls": "distance"
+   }
+  ],
+  "components": [
+   "Mystic Expansion"
+  ]
+ },
+ {
+  "id": 1254091416,
+  "name": "Knockdown",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/knockdown.webp",
+  "text": "Apply a <span class=\"highlight\">Stun</span> after <span class=\"highlight\">2s</span>. Stun duration is increased against <span class=\"highlight\">airborne</span> targets.<br><br><span class=\"diminish\">Increases the target's gravity for the duration of the stun.</span>",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Ability Range",
+    "value": "5%",
+    "cls": "distance"
+   },
+   {
+    "label": "Cast Range",
+    "value": "45m",
+    "cls": "range"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2947183272,
+  "name": "Radiant Regeneration",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/radiant_regeneration.webp",
+  "text": "While in-combat, <span class=\"highlight\">Heal</span> and gain bonus <span class=\"highlight\">Movement Speed</span> for a short duration when you cast an ability.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Regeneration",
+    "value": "4 HP/s",
+    "cls": "healing"
+   },
+   {
+    "label": "Regeneration Duration",
+    "value": "7s",
+    "cls": "duration"
+   },
+   {
+    "label": "Healing on Ability Cast",
+    "value": "40",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "6s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "3s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Mystic Regeneration"
+  ]
+ },
+ {
+  "id": 787198704,
+  "name": "Rapid Recharge",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/rapid_recharge.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Bonus Ability Charges",
+    "value": "2",
+    "cls": "cast"
+   },
+   {
+    "label": "Faster Time Between Charges",
+    "value": "30%",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Cooldown Reduction For Charged Abilities",
+    "value": "14%",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Spirit Power for Charged Abilities",
+    "value": "14",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Extra Charge"
+  ]
+ },
+ {
+  "id": 619484391,
+  "name": "Silence Wave",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/silence_glyph.webp",
+  "text": "Launch an expanding projectile which <span class=\"highlight\">Silences</span> enemies for a short duration and deals impact damage. <br><br><span class=\"diminish\">Silence does not interrupt channeling abilities.</span>",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Damage",
+    "value": "75",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cast Range",
+    "value": "40m",
+    "cls": "range"
+   },
+   {
+    "label": "Cooldown",
+    "value": "42s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3190916303,
+  "name": "Spirit Snatch",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_snatch.webp",
+  "text": "When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, the attack deals extra <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> and steals <span class=\"highlight\">Spirit Resist</span> and <span class=\"highlight\">Spirit Power</span>.<span class=\"diminish\"><br><br>Effects are reduced by 30% for Light Melee hits.</span>",
+  "props": [
+   {
+    "label": "Melee Damage",
+    "value": "7%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Damage",
+    "value": "50",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Resist Steal",
+    "value": "12%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Spirit Power Steal",
+    "value": "25",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "6s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Spirit Strike"
+  ]
+ },
+ {
+  "id": 3261353684,
+  "name": "Superior Cooldown",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/superior_cooldown.webp",
+  "text": "Reduces the <span class=\"highlight\">Cooldown</span> of your abilities.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "4",
+    "cls": "healing"
+   },
+   {
+    "label": "Ability Cooldown Reduction",
+    "value": "20%",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Compress Cooldown"
+  ]
+ },
+ {
+  "id": 2717651715,
+  "name": "Superior Duration",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/superior_duration.webp",
+  "text": "Increases the <span class=\"highlight\">duration</span> of your abilities and items.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "8%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Ability Duration",
+    "value": "28%",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Duration Extender"
+  ]
+ },
+ {
+  "id": 1292979587,
+  "name": "Surge of Power",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/surge_of_power.webp",
+  "text": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Move Speed</span> and maintain full speed while attacking.",
+  "props": [
+   {
+    "label": "Imbued Ability Spirit Power",
+    "value": "28",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Fire Rate Bonus",
+    "value": "20%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed Duration",
+    "value": "8s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "14s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Extra Spirit"
+  ]
+ },
+ {
+  "id": 2121044373,
+  "name": "Tankbuster",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/tankbuster.webp",
+  "text": "Charges up over time with <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span>, causing abilities dealing more than <span class=\"highlight\">165</span> damage to deal additional damage. <span class=\"highlight\">Ignores Spirit Resistance.</span>",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Damage",
+    "value": "40",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Current Health Bonus Damage",
+    "value": "7.5%",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Charge-Up Time",
+    "value": "14s",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Mystic Burst"
+  ]
+ },
+ {
+  "id": 395944548,
+  "name": "Torment Pulse",
+  "slot": "spirit",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/torment_pulse.webp",
+  "text": "Periodically deals <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> to the closest two enemies nearby.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": "health"
+   },
+   {
+    "label": "Melee Resist",
+    "value": "22%",
+    "cls": ""
+   },
+   {
+    "label": "Pulse Damage",
+    "value": "25",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Pulse Radius",
+    "value": "9m",
+    "cls": "distance"
+   },
+   {
+    "label": "Cooldown",
+    "value": "1.4s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3812615317,
+  "name": "Arctic Blast",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/arctic_blast.webp",
+  "text": "Release an expanding ice blast that deals <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span>, <span class=\"highlight\">Freezing</span> and then <span class=\"highlight\">Slowing</span> targets it hits.<br><br>Slowed targets have their <span class=\"highlight\">stamina regen frozen</span>",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": ""
+   },
+   {
+    "label": "Damage",
+    "value": "175",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Freeze Duration",
+    "value": "1s",
+    "cls": "duration"
+   },
+   {
+    "label": "End Radius",
+    "value": "16m",
+    "cls": "distance"
+   },
+   {
+    "label": "Cooldown",
+    "value": "24s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Cold Front"
+  ]
+ },
+ {
+  "id": 2519598785,
+  "name": "Boundless Spirit",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/boundless_spirit.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "15%",
+    "cls": ""
+   },
+   {
+    "label": "Spirit Power",
+    "value": "30",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "4",
+    "cls": "healing"
+   }
+  ],
+  "components": [
+   "Improved Spirit"
+  ]
+ },
+ {
+  "id": 2617435668,
+  "name": "Cursed Relic",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/curse.webp",
+  "text": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>. <span class=\"highlight\">Removes all non-ultimate buffs</span>.<br><br>Your own <span class=\"highlight\">Damage Output</span> is reduced for the duration.",
+  "props": [
+   {
+    "label": "Cooldown",
+    "value": "55s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "3.25s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "20m",
+    "cls": "range"
+   },
+   {
+    "label": "Damage Penalty",
+    "value": "-25%",
+    "cls": "damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 630839635,
+  "name": "Echo Shard",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/echo_shard.webp",
+  "text": "<span class=\"highlight\">Reset the cooldown</span> of the imbued non-ultimate ability.<br><br>This item's cooldown is increased by <span class=\"highlight\">the cooldown of the imbued ability</span>.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "5%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "5%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Imbued Ability Cooldown",
+    "value": "100%",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3005970438,
+  "name": "Escalating Exposure",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/escalating_exposure.webp",
+  "text": "Dealing <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> to the target.",
+  "props": [
+   {
+    "label": "Spirit Resist On Spirit Damage",
+    "value": "-8%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "17%",
+    "cls": ""
+   },
+   {
+    "label": "Spirit Amp per Stack",
+    "value": "4.5%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "12",
+    "cls": ""
+   },
+   {
+    "label": "Duration",
+    "value": "12s",
+    "cls": "duration"
+   },
+   {
+    "label": "Max Frequency Per Target",
+    "value": "0.7s",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Mystic Vulnerability"
+  ]
+ },
+ {
+  "id": 2533252781,
+  "name": "Ethereal Shift",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/ethereal_shift.webp",
+  "text": "Instantly enter a void state and become Invulnerable for a short duration.",
+  "props": [
+   {
+    "label": "Duration",
+    "value": "4.0s",
+    "cls": "duration"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "20",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "30%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Move Speed",
+    "value": "3m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "37s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "5s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2142980412,
+  "name": "Focus Lens",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/focus_lens.webp",
+  "text": "Target an enemy to <span class=\"highlight\">Silence</span> them. A portion of <span class=\"highlight\">all damage dealt</span> during the silence gets applied to the target when the silence wears off.",
+  "props": [
+   {
+    "label": "Fire Rate",
+    "value": "10%",
+    "cls": ""
+   },
+   {
+    "label": "Damage On Expire",
+    "value": "35%",
+    "cls": "damage"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-9%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Resist Reduction Duration",
+    "value": "12s",
+    "cls": ""
+   },
+   {
+    "label": "Cast Range",
+    "value": "25m",
+    "cls": "range"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "-30",
+    "cls": "spirit"
+   },
+   {
+    "label": "Cooldown",
+    "value": "40s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Spirit Sap"
+  ]
+ },
+ {
+  "id": 493591231,
+  "name": "Lightning Scroll",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/lightning_scroll.webp",
+  "text": "Damage from your ultimate applies a <span class=\"inline-attribute-label Stun\">stun</span> and deals <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span> after a short delay.</span>",
+  "props": [
+   {
+    "label": "Move Speed on Spirit Damage",
+    "value": "24%",
+    "cls": "slow"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Damage",
+    "value": "150",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Delay Before Effect",
+    "value": "3s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Mystic Slow"
+  ]
+ },
+ {
+  "id": 2800629741,
+  "name": "Magic Carpet",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/magic_carpet.webp",
+  "text": "Summon a Magic Carpet that will <span class=\"highlight\">fly</span> you away. While flying you are immune to slows and doing any action will dismiss the carpet. <span class=\"diminish\"><br>Cannot use abilities while the carpet is being summoned.</span>",
+  "props": [
+   {
+    "label": "Ability Duration",
+    "value": "15%",
+    "cls": "duration"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "14",
+    "cls": ""
+   },
+   {
+    "label": "Gravity Scale",
+    "value": "-15%",
+    "cls": ""
+   },
+   {
+    "label": "Air Control",
+    "value": "25%",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Duration",
+    "value": "12s",
+    "cls": "duration"
+   },
+   {
+    "label": "Bonus Fly Speed",
+    "value": "7m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Summon Duration",
+    "value": "1.3s",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3919289022,
+  "name": "Mercurial Magnum",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mercurial_magnum.webp",
+  "text": "Your imbued ability charges up over time with <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span>, <span class=\"inline-attribute-label BonusFireRate\">bonus fire rate</span>, and <span class=\"highlight\">reloads bullets</span> on use. Until your next reload, your <span class=\"highlight\">bullets deal <span class=\"inline-attribute-label BonusSpiritDamage\">bonus spirit damage</span></span> based on your Spirit Power.",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Spirit Power",
+    "value": "7",
+    "cls": ""
+   },
+   {
+    "label": "Base Bullet Damage",
+    "value": "20%",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Damage",
+    "value": "60",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "22%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Bullets Reloaded",
+    "value": "100%",
+    "cls": ""
+   },
+   {
+    "label": "Charge-Up Time",
+    "value": "14s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Quicksilver Reload"
+  ]
+ },
+ {
+  "id": 3577481646,
+  "name": "Mystic Reverb",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/mystic_reverb.webp",
+  "text": "Imbue an ability with <span class=\"highlight\">Lifesteal</span> and to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
+  "props": [
+   {
+    "label": "Spirit Lifesteal",
+    "value": "8%",
+    "cls": "healing"
+   },
+   {
+    "label": "Damage",
+    "value": "50%",
+    "cls": "damage"
+   },
+   {
+    "label": "Imbued Lifesteal",
+    "value": "22%",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "32%",
+    "cls": "slow"
+   },
+   {
+    "label": "Radius",
+    "value": "16m",
+    "cls": "distance"
+   },
+   {
+    "label": "Delay Duration",
+    "value": "3s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "6.25s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 677738769,
+  "name": "Refresher",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/refresher.webp",
+  "text": "<span class=\"highlight\">Reset the cooldown</span> of all your abilities and <span class=\"highlight\">restore all your charges</span>.",
+  "props": [
+   {
+    "label": "Cooldown",
+    "value": "300s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2417568017,
+  "name": "Scourge",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/scourge.webp",
+  "text": "Apply <span class=\"highlight\">Spirit Resist</span>, <span class=\"highlight\">Debuff Resist</span> and an aura on a friendly target that deals <span class=\"highlight\"> damage</span> to enemies proportional to their max health. Existing debuffs on the target are reduced.<br>Can be self cast.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": "health"
+   },
+   {
+    "label": "Max Health per second",
+    "value": "2.3%",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "40%",
+    "cls": ""
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "20%",
+    "cls": "duration"
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "35m",
+    "cls": "range"
+   },
+   {
+    "label": "Cooldown",
+    "value": "35s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Radius",
+    "value": "10m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 343572757,
+  "name": "Spirit Burn",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_burn.webp",
+  "text": "Dealing significant <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> to an enemy within 5s causes an explosion dealing damage and a burn to that enemy. While burning, enemies take damage over time and receive reduced healing.<br><span class=\"diminish\">The cooldown is per enemy, so each target can only be burned once per cooldown. Deals half-damage on non-heroes.</span>",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "6%",
+    "cls": "distance"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "500",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Explosion Damage",
+    "value": "50",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Damage Per Second",
+    "value": "24",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Immunity Duration",
+    "value": "20s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "8s",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-70%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 915014646,
+  "name": "Transcendent Cooldown",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/transcendent_cooldown.webp",
+  "text": "Reduces the <span class=\"highlight\">Cooldown</span> of your abilities and items.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "4",
+    "cls": "healing"
+   },
+   {
+    "label": "Ability Cooldown Reduction",
+    "value": "25%",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Item Cooldown Reduction",
+    "value": "25%",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Superior Cooldown"
+  ]
+ },
+ {
+  "id": 1152158042,
+  "name": "Vortex Web",
+  "slot": "spirit",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/vortex_web.webp",
+  "text": "Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area and applying <span class=\"highlight\">Slowing Hex</span>. <span class=\"diminish\"><br><br>Alt Cast to Target Unit Directly.</span>",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "8%",
+    "cls": "distance"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Capture Radius",
+    "value": "12m",
+    "cls": "distance"
+   },
+   {
+    "label": "Move Speed",
+    "value": "28%",
+    "cls": "slow"
+   },
+   {
+    "label": "Duration",
+    "value": "4.0s",
+    "cls": "duration"
+   },
+   {
+    "label": "Tether Duration",
+    "value": "0.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "42s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-36%",
+    "cls": "slow"
+   }
+  ],
+  "components": [
+   "Slowing Hex"
+  ]
+ },
+ {
+  "id": 3633614685,
+  "name": "Extra Health",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_health.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "210",
+    "cls": "health"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2829638276,
+  "name": "Extra Regen",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_regen.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Health Regen",
+    "value": "2.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.5",
+    "cls": "healing"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 4139877411,
+  "name": "Extra Stamina",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/extra_stamina.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Stamina",
+    "value": "1",
+    "cls": ""
+   },
+   {
+    "label": "Stamina Recovery",
+    "value": "12%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1672893796,
+  "name": "Grit",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/grit.webp",
+  "text": "Gain a <span class=\"highlight\">Barrier</span> for a short duration.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.0",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "200",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Barrier Duration",
+    "value": "4s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "60s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1710079648,
+  "name": "Healing Rite",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_rite.webp",
+  "text": "Grant <span class=\"highlight\">Regen</span> and <span class=\"highlight\">Sprint Speed</span> to the target. Gets dispelled if you take damage from enemy players or objectives. Can be self-cast.",
+  "props": [
+   {
+    "label": "Total HP Regen",
+    "value": "300",
+    "cls": "healing"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "2m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "70s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Regen Duration",
+    "value": "20s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "30m",
+    "cls": "range"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1437614329,
+  "name": "Melee Lifesteal",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/melee_lifesteal.webp",
+  "text": "Your next <span class=\"highlight\">Melee</span> attack <span class=\"highlight\">heals you</span>. <span class=\"diminish\"><br><br>This heal is 30% effective vs non-heroes. <br>Cooldown is 1.5x as long for Light Melee hits.</span>",
+  "props": [
+   {
+    "label": "Melee Damage",
+    "value": "12%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Heal on Melee Hit",
+    "value": "100",
+    "cls": "healing"
+   },
+   {
+    "label": "Cooldown",
+    "value": "8s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 4204808176,
+  "name": "Rebuttal",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rebuttal.webp",
+  "text": "On a successful <span class=\"highlight\">Parry</span> against an enemy Hero, <span class=\"highlight\">Heal</span> yourself for the damage parried and returns that damage to the target, and temporarily gain increased <span class=\"highlight\">damage.</span>",
+  "props": [
+   {
+    "label": "Parry Cooldown",
+    "value": "1.25s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Melee Resist",
+    "value": "18%",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Bonus Damage",
+    "value": "30%",
+    "cls": "damage"
+   },
+   {
+    "label": "Damage Parried as Heal",
+    "value": "100%",
+    "cls": "healing"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "6s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3399065363,
+  "name": "Sprint Boots",
+  "slot": "vitality",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/sprint_boots.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Sprint Speed",
+    "value": "2.0m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1235347618,
+  "name": "Battle Vest",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/battle_vest.webp",
+  "text": "While you are <span class=\"highlight\">above 65% health</span>, gain <span class=\"highlight\"> <span class=\"inline-attribute-label WeaponDamage\">weapon damage</span></span> and <span class=\"highlight\"> <span class=\"inline-attribute-label BonusFireRate\">bonus fire rate</span></span>.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "18%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "3",
+    "cls": "healing"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "22%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "7%",
+    "cls": "fire_rate"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 499683006,
+  "name": "Bullet Lifesteal",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_lifesteal.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Bullet Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1047818222,
+  "name": "Debuff Reducer",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_reducer.webp",
+  "text": "Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "25%",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3970837787,
+  "name": "Enchanter's Emblem",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/enchanters_emblem.webp",
+  "text": "While you are <span class=\"highlight\">above 65% health</span>, gain bonus <span class=\"highlight\"> <span class=\"inline-attribute-label Spirit\">Spirit</span></span> and <span class=\"highlight\">Cooldown Reduction</span>.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "18%",
+    "cls": ""
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "15",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Ability Cooldown Reduction",
+    "value": "5%",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2447176615,
+  "name": "Enduring Speed",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/enduring_speed.webp",
+  "text": "Reduces the effect of enemy <span class=\"highlight\">Move Speed</span> penalties.",
+  "props": [
+   {
+    "label": "Move Speed",
+    "value": "2.0m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   },
+   {
+    "label": "Slow Resist",
+    "value": "25%",
+    "cls": "move_speed"
+   }
+  ],
+  "components": [
+   "Sprint Boots"
+  ]
+ },
+ {
+  "id": 857669956,
+  "name": "Guardian Ward",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/guardian_ward.webp",
+  "text": "Provide the target with a <span class=\"highlight\">Barrier</span> and temporary <span class=\"highlight\">Move Speed</span>. <span class=\"diminish\"><br>Can be self-cast.<br>Cooldown is reduced by half when cast on someone else.</span>",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "8%",
+    "cls": "distance"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "250",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "60s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "6s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "40m",
+    "cls": "range"
+   }
+  ],
+  "components": [
+   "Grit"
+  ]
+ },
+ {
+  "id": 2603935618,
+  "name": "Healbane",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healbane.webp",
+  "text": "Your <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> reduces the enemy's <span class=\"highlight\">Incoming Healing</span>. If an enemy hero dies under this effect, you receive a large heal.",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "7",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-35%",
+    "cls": "damage"
+   },
+   {
+    "label": "Heal On Hero Kill",
+    "value": "170",
+    "cls": "healing"
+   },
+   {
+    "label": "Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2566692615,
+  "name": "Healing Booster",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_booster.webp",
+  "text": "Increases the effectiveness of your <span class=\"highlight\">healing</span>.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   },
+   {
+    "label": "Outgoing Healing",
+    "value": "20%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1644605047,
+  "name": "Reactive Barrier",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/reactive_barrier.webp",
+  "text": "Gain a <span class=\"highlight\">Barrier</span> when you are <span class=\"highlight\">Stunned, Chained, Immobilized, Slept or Silenced</span>.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.0",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "325",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Cooldown",
+    "value": "55s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Grit"
+  ]
+ },
+ {
+  "id": 2059712766,
+  "name": "Restorative Locket",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/restorative_locket.webp",
+  "text": "When an enemy uses an ability within 32mm range from you, store one <span class=\"highlight\">Restoration Stack</span>. <br><br>Consume all stacks to <span class=\"highlight\">heal yourself</span> and replenish <span class=\"highlight\">up to 3 stamina</span> based on how many stacks you have.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "8%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Heal Per Stack",
+    "value": "16",
+    "cls": "healing"
+   },
+   {
+    "label": "Cooldown",
+    "value": "20s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "25",
+    "cls": ""
+   },
+   {
+    "label": "Max Stamina Restore",
+    "value": "3",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3361075077,
+  "name": "Return Fire",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/return_fire.webp",
+  "text": "Automatically <span class=\"highlight\">fire a bullet</span> towards any attacker who damages you with their abilities or weapon.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "10%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Bullet Damage Returned",
+    "value": "65%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Spirit Damage Returned",
+    "value": "25%",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Duration",
+    "value": "6.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "23s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 876563814,
+  "name": "Spirit Lifesteal",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_lifesteal.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Spirit Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 112198670,
+  "name": "Spirit Shielding",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_shielding.webp",
+  "text": "Gain a <span class=\"highlight\">Barrier</span> whenever you take significant <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> from enemy Heroes in a small time frame.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "2.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "300",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "15%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "225",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Time Frame",
+    "value": "3.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Barrier Duration",
+    "value": "8s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "45s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Grit"
+  ]
+ },
+ {
+  "id": 3074274290,
+  "name": "Trophy Collector",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/trophy_collector.webp",
+  "text": "Whenever you score an <span class=\"highlight\">assist or kill</span>, gain extra <span class=\"highlight\">sprint</span>, <span class=\"highlight\">ability range</span> and <span class=\"highlight\">passive soul generation</span>. This effect stacks and persists through death.",
+  "props": [
+   {
+    "label": "Weapon Damage vs. NPCs",
+    "value": "-15%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "2.0m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.15m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Ability Range",
+    "value": "0.75%",
+    "cls": "distance"
+   },
+   {
+    "label": "Souls per Minute",
+    "value": "16",
+    "cls": "souls"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "16",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Sprint Boots"
+  ]
+ },
+ {
+  "id": 805079544,
+  "name": "Weapon Shielding",
+  "slot": "vitality",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/weapon_shielding.webp",
+  "text": "Gain a <span class=\"highlight\">Barrier</span> whenever you take significant <span class=\"inline-attribute-label WeaponDamage\">weapon damage</span> from enemy Heroes in a small time frame.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "2.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "300",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "18%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "250",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Time Frame",
+    "value": "4.0s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "35s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Barrier Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Grit"
+  ]
+ },
+ {
+  "id": 3140772621,
+  "name": "Bullet Resilience",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_resilience.webp",
+  "text": "When below <span class=\"highlight\">50% health</span>, gain additional <span class=\"highlight\">Bullet Resist</span>.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "35%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "5",
+    "cls": "healing"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "15%",
+    "cls": "bullet_armor_up"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1414025773,
+  "name": "Counterspell",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/counterspell.webp",
+  "text": "Your next parry <span class=\"highlight\">protects you from the damage and effects of enemy abilities and items</span>. On a successful spell parry <span class=\"inline-attribute-label Heal\">heal</span> and gain <span class=\"inline-attribute-label MoveSpeed\">move speed</span> and <span class=\"inline-attribute-label Spirit\">Spirit</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "5",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Healing",
+    "value": "150",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "20",
+    "cls": "tech_power"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "6s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "23s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Spell Parry Duration",
+    "value": "0.8s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3731635960,
+  "name": "Dispel Magic",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_remover.webp",
+  "text": "<span class=\"highlight\">Purge all non-ultimate negative effects</span> currently applied to you. If any effects were removed, <span class=\"highlight\">heal yourself</span> and gain a <span class=\"highlight\">move speed bonus</span>. <br><span class=\"diminish\">Cannot be used while Stunned or Slept.</span>",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Heal Amount",
+    "value": "250",
+    "cls": "healing"
+   },
+   {
+    "label": "Cooldown",
+    "value": "45s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "3s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3585132399,
+  "name": "Fortitude",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/fortitude.webp",
+  "text": "After not taking damage for a period, gain health regen.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "375",
+    "cls": "health"
+   },
+   {
+    "label": "Restore Delay",
+    "value": "10 s",
+    "cls": ""
+   },
+   {
+    "label": "Max Health Regen",
+    "value": "2.25 %",
+    "cls": ""
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.5m m",
+    "cls": "move_speed"
+   }
+  ],
+  "components": [
+   "Extra Health"
+  ]
+ },
+ {
+  "id": 1409190604,
+  "name": "Fury Trance",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/fury_trance.webp",
+  "text": "Grants <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Spirit Resistance</span> and <span class=\"highlight\">Move Speed</span>, and removes the <span class=\"highlight\">Move Speed</span> penalty while shooting, but <span class=\"highlight\">Silences</span> you and <span class=\"highlight\">disables stamina usage and regeneration</span>.",
+  "props": [
+   {
+    "label": "Bullet Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "32%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "40%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Cooldown",
+    "value": "18s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "6.5s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Bullet Lifesteal"
+  ]
+ },
+ {
+  "id": 2956256701,
+  "name": "Healing Nova",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_nova.webp",
+  "text": "<span class=\"highlight\">Heal</span> yourself and nearby allies.",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "5%",
+    "cls": "distance"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Total HP Regen",
+    "value": "325",
+    "cls": "healing"
+   },
+   {
+    "label": "Cooldown",
+    "value": "60s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Regen Duration",
+    "value": "2s",
+    "cls": "duration"
+   },
+   {
+    "label": "Radius",
+    "value": "18m",
+    "cls": "distance"
+   }
+  ],
+  "components": [
+   "Healing Rite"
+  ]
+ },
+ {
+  "id": 1252627263,
+  "name": "Lifestrike",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/lifestrike.webp",
+  "text": "Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for a percentage of the <span class=\"highlight\">Melee Damage</span> dealt plus a fixed amount. <span class=\"diminish\"><br><br>This heal is 40% effective vs non-heroes. <br>Cooldown is 1.5x as long for Light Melee hits.</span>",
+  "props": [
+   {
+    "label": "Melee Damage",
+    "value": "16%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Move Speed",
+    "value": "48%",
+    "cls": "slow"
+   },
+   {
+    "label": "Heal on Melee Hit",
+    "value": "120",
+    "cls": "healing"
+   },
+   {
+    "label": "Melee Hit Heal",
+    "value": "35%",
+    "cls": "healing"
+   },
+   {
+    "label": "Slow Duration",
+    "value": "2.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "4s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Melee Lifesteal"
+  ]
+ },
+ {
+  "id": 600033864,
+  "name": "Majestic Leap",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/majestic_leap.webp",
+  "text": "<span class=\"highlight\">Launch yourself</span> high into the air and grant yourself a <span class=\"highlight\">Barrier</span>. While in the air, you can use the active again to drop down faster.<br><br><span class=\"diminish\">Cannot be used for 5s if attacked by enemy Hero.</span>",
+  "props": [
+   {
+    "label": "Barrier",
+    "value": "200",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Interrupt Cooldown",
+    "value": "5s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Cooldown",
+    "value": "45s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Barrier Duration",
+    "value": "8s",
+    "cls": "duration"
+   },
+   {
+    "label": "Air Control",
+    "value": "50%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1378931225,
+  "name": "Metal Skin",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/metal_skin.webp",
+  "text": "Become <span class=\"highlight\">immune to bullets</span>.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "12%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Active Movespeed Penalty",
+    "value": "-1.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Gravity Scale",
+    "value": "20%",
+    "cls": "slow"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-20%",
+    "cls": "slow"
+   },
+   {
+    "label": "Duration",
+    "value": "5.0s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "24s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1804594021,
+  "name": "Rescue Beam",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rescue_beam.webp",
+  "text": "<span class=\"highlight\">Heals</span> a target allied hero and yourself for a percentage of <span class=\"highlight\">Max Health</span>. Once while healing, you can <span class=\"highlight\">Pull</span> the target towards you. Can be self-cast.",
+  "props": [
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Ability Range",
+    "value": "6%",
+    "cls": "distance"
+   },
+   {
+    "label": "Heal Amount",
+    "value": "20%",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "0m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Channel Duration",
+    "value": "2.5s",
+    "cls": "cast"
+   },
+   {
+    "label": "Cast Range",
+    "value": "35m",
+    "cls": "range"
+   },
+   {
+    "label": "Cooldown",
+    "value": "60s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Healing Rite"
+  ]
+ },
+ {
+  "id": 2163598980,
+  "name": "Spirit Resilience",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_resilience.webp",
+  "text": "When below <span class=\"highlight\">50% health</span>, gain additional Spirit Resist.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "30%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "3",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "15%",
+    "cls": "tech_armor_up"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 334300056,
+  "name": "Stamina Mastery",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/stamina_mastery.webp",
+  "text": "Allows an additional use of <span class=\"highlight\">Air Jump</span> or <span class=\"highlight\">Air Dash</span> before landing.",
+  "props": [
+   {
+    "label": "Stamina",
+    "value": "2",
+    "cls": ""
+   },
+   {
+    "label": "Stamina Recovery",
+    "value": "18%",
+    "cls": ""
+   },
+   {
+    "label": "Air Jump/Dash Distance",
+    "value": "23%",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Extra Stamina"
+  ]
+ },
+ {
+  "id": 865958998,
+  "name": "Veil Walker",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/veil_walker.webp",
+  "text": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, <span class=\"highlight\">Heal</span> and increased <span class=\"highlight\">Move Speed</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "6",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Invis Move Speed",
+    "value": "3.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Heal",
+    "value": "85",
+    "cls": "healing"
+   },
+   {
+    "label": "Invisibility Duration",
+    "value": "8s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "15s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3270001687,
+  "name": "Warp Stone",
+  "slot": "vitality",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/warp_stone.webp",
+  "text": "<span class=\"highlight\">Teleport</span> straight ahead, gaining <span class=\"highlight\">Bullet Resist</span>.",
+  "props": [
+   {
+    "label": "Teleport Range",
+    "value": "11m",
+    "cls": "range"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "30%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "6s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "16s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3361811174,
+  "name": "Cheat Death",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/cheat_death.webp",
+  "text": "When you would take lethal damage, instead become <span class=\"highlight\">temporarily death immune</span> and <span class=\"highlight\">remove all non-stun debuffs</span>. <br><br>While death immune, you deal <span class=\"highlight\">reduced damage</span> and have <span class=\"highlight\">reduced healing</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "200",
+    "cls": "health"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "15%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Death Immunity Duration",
+    "value": "4.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "90s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Damage Reduction",
+    "value": "-60%",
+    "cls": "damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-60%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2407781327,
+  "name": "Colossus",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/colossus.webp",
+  "text": "Grow <span class=\"highlight\">larger in size</span>, gaining <span class=\"inline-attribute-label BulletResist\">bullet resist</span>, <span class=\"inline-attribute-label SpiritResist\">spirit resist</span>, and <span class=\"inline-attribute-label MeleeDamage\">melee damage</span>. <br><br>Nearby enemies suffer from <span class=\"inline-attribute-label Slow\">slow</span> and have reduced <span class=\"highlight\">dash speed</span>.",
+  "props": [
+   {
+    "label": "Base Health",
+    "value": "25%",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "15%",
+    "cls": ""
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "35%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "35%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Melee Damage",
+    "value": "30%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Move Speed",
+    "value": "24%",
+    "cls": "slow"
+   },
+   {
+    "label": "Radius",
+    "value": "14m",
+    "cls": "distance"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "37s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Model Scale",
+    "value": "20%",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Extra Health"
+  ]
+ },
+ {
+  "id": 1662311306,
+  "name": "Divine Barrier",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/divine_barrier.webp",
+  "text": "<span class=\"highlight\">Remove all non-stun debuffs</span> from the target and provide them with a <span class=\"highlight\">Barrier</span> and <span class=\"highlight\">Move Speed</span>. <span class=\"diminish\"><br>Can be self-cast. Cooldown is reduced by half when cast on someone else.</span>",
+  "props": [
+   {
+    "label": "Ability Range",
+    "value": "10%",
+    "cls": "distance"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "600",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "55s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "6s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cast Range",
+    "value": "40m",
+    "cls": "range"
+   }
+  ],
+  "components": [
+   "Guardian Ward"
+  ]
+ },
+ {
+  "id": 2820116164,
+  "name": "Diviner's Kevlar",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/diviners_kevlar.webp",
+  "text": "Upon casting an <span class=\"highlight\">ultimate ability</span> gain a <span class=\"highlight\">Barrier</span> and temporary <span class=\"highlight\">Spirit Power</span>.",
+  "props": [
+   {
+    "label": "Ability Duration",
+    "value": "15%",
+    "cls": "duration"
+   },
+   {
+    "label": "Ultimate Cooldown Reduction",
+    "value": "10%",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Barrier",
+    "value": "1000",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "40",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "20s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "40s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1427630806,
+  "name": "Healing Tempo",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healing_tempo.webp",
+  "text": "Applying <span class=\"inline-attribute-label Heal\">heal</span> to yourself or an ally grants the target <span class=\"inline-attribute-label BonusFireRate\">bonus fire rate</span> and <span class=\"inline-attribute-label BonusMoveSpeed\">bonus move speed</span>.<br><br><span class=\"diminish\">Does not apply on innate Regen or passive Bullet/Spirit Lifesteals.</span>",
+  "props": [
+   {
+    "label": "Outgoing Healing",
+    "value": "25%",
+    "cls": ""
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Health Regen",
+    "value": "6",
+    "cls": "healing"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "4",
+    "cls": "healing"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "35%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.25m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "7s",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Healing Booster"
+  ]
+ },
+ {
+  "id": 951866250,
+  "name": "Indomitable",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/indomitable.webp",
+  "text": "The next <span class=\"highlight\">Stun, Chain, Immobilize, Sleep, Silence or Fear</span> is automatically cleansed. When this happens, you gain a <span class=\"highlight\">barrier</span> and all your <span class=\"highlight\">ability cooldowns</span> get reduced by 20%.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "10%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "2.0",
+    "cls": "healing"
+   },
+   {
+    "label": "Barrier",
+    "value": "325",
+    "cls": "combat_barrier"
+   },
+   {
+    "label": "Cooldown",
+    "value": "55s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Reactive Barrier"
+  ]
+ },
+ {
+  "id": 1797283378,
+  "name": "Infuser",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/infuser.webp",
+  "text": "Gain <span class=\"highlight\">Spirit Lifesteal</span> and <span class=\"highlight\">Spirit Power</span>.",
+  "props": [
+   {
+    "label": "Spirit Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "10%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": ""
+   },
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Lifesteal",
+    "value": "75%",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "30",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "30s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Spirit Lifesteal"
+  ]
+ },
+ {
+  "id": 2037039379,
+  "name": "Inhibitor",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/inhibitor.webp",
+  "text": "Your bullets build up to reduce the target's <span class=\"highlight\">outgoing damage</span> and apply <span class=\"highlight\">healing reduction</span>.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "150",
+    "cls": "health"
+   },
+   {
+    "label": "Damage Penalty",
+    "value": "-30%",
+    "cls": "damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-40%",
+    "cls": "damage"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "0.77%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1250307611,
+  "name": "Juggernaut",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/juggernaut.webp",
+  "text": "Enemies that shoot you have their <span class=\"highlight\">Fire Rate</span> slowed.",
+  "props": [
+   {
+    "label": "Slow Resist",
+    "value": "50%",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2.5m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Melee Resist",
+    "value": "25%",
+    "cls": ""
+   },
+   {
+    "label": "Health Regen",
+    "value": "15",
+    "cls": "healing"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "40%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Duration",
+    "value": "4s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Enduring Speed"
+  ]
+ },
+ {
+  "id": 865846625,
+  "name": "Leech",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/leech.webp",
+  "text": "Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>.",
+  "props": [
+   {
+    "label": "Spirit Lifesteal",
+    "value": "30%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bullet Lifesteal",
+    "value": "30%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "180",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "12%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "12",
+    "cls": "tech_damage"
+   }
+  ],
+  "components": [
+   "Bullet Lifesteal",
+   "Spirit Lifesteal"
+  ]
+ },
+ {
+  "id": 1371725689,
+  "name": "Phantom Strike",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/phantom_strike.webp",
+  "text": "<span class=\"highlight\">Teleport</span> to an enemy target and pull them to the ground. Dealing <span class=\"highlight\">damage</span>, <span class=\"highlight\">Move speed</span> reduction and <span class=\"highlight\">Disarm</span>.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "15%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Move Speed",
+    "value": "40%",
+    "cls": "slow"
+   },
+   {
+    "label": "Impact Damage",
+    "value": "75",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cast Range",
+    "value": "25m",
+    "cls": "range"
+   },
+   {
+    "label": "Cooldown",
+    "value": "35s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "3s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3491236900,
+  "name": "Plated Armor",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/plated_armor.webp",
+  "text": "Gain a chance to either deflect incoming bullets, preventing all <span class=\"inline-attribute-label WeaponDamage\">weapon damage</span> or prevent all <span class=\"highlight\">on-hit effects</span> from bullets.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "130",
+    "cls": "health"
+   },
+   {
+    "label": "Deflection Percent",
+    "value": "30%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "On-Hit Prevention Percent",
+    "value": "50%",
+    "cls": "bullet_armor_up"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1282141666,
+  "name": "Siphon Bullets",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/siphon_bullets.webp",
+  "text": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "15%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "10%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Max HP Steal",
+    "value": "2.5%",
+    "cls": "health"
+   },
+   {
+    "label": "Steal Duration",
+    "value": "17s",
+    "cls": "duration"
+   },
+   {
+    "label": "Max Frequency",
+    "value": "1.2s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1955841979,
+  "name": "Spellbreaker",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spellbreaker.webp",
+  "text": "The next instance of high <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> you take is significantly reduced.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "18%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "25%",
+    "cls": "duration"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Damage Reduction",
+    "value": "65%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "175",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "9s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Debuff Reducer"
+  ]
+ },
+ {
+  "id": 3357231760,
+  "name": "Unstoppable",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/unstoppable.webp",
+  "text": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>.",
+  "props": [
+   {
+    "label": "Debuff Resist",
+    "value": "25%",
+    "cls": "duration"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Duration",
+    "value": "5.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "60s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Debuff Reducer"
+  ]
+ },
+ {
+  "id": 1055679805,
+  "name": "Vampiric Burst",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/vampiric_burst.webp",
+  "text": "Grants <span class=\"highlight\">Lifesteal</span>, <span class=\"highlight\">Fire Rate</span>, and <span class=\"highlight\">Ammo</span>. This added Ammo is not limited by your max magazine size.",
+  "props": [
+   {
+    "label": "Bullet Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "10%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Lifesteal",
+    "value": "75%",
+    "cls": "healing"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "34%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Ammo",
+    "value": "75%",
+    "cls": ""
+   },
+   {
+    "label": "Cooldown",
+    "value": "30s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "5s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Bullet Lifesteal"
+  ]
+ },
+ {
+  "id": 3028234315,
+  "name": "Witchmail",
+  "slot": "vitality",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/witchmail.webp",
+  "text": "Taking heavy hits of <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> from an enemy reduces a <span class=\"highlight\">random ability cooldown</span>.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "22%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "14",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cooldown Reduction per Hit",
+    "value": "4s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Cooldown",
+    "value": "1s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "75",
+    "cls": "tech_damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1342610602,
+  "name": "Close Quarters",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/close_quarters.webp",
+  "text": "Deal additional <span class=\"highlight\">Weapon Damage</span> when in <span class=\"highlight\">close range</span> to your target.",
+  "props": [
+   {
+    "label": "Melee Resist",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "20%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Close Range",
+    "value": "15m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1548066885,
+  "name": "Extended Magazine",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/basic_magazine.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "30%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "8%",
+    "cls": "bullet_damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2010028405,
+  "name": "Headshot Booster",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/headshot_booster.webp",
+  "text": "Your next <span class=\"highlight\">headshot</span> against an enemy Hero deals <span class=\"inline-attribute-label BonusWeaponDamage\">bonus weapon damage</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "30",
+    "cls": "health"
+   },
+   {
+    "label": "Head Shot Bonus Damage",
+    "value": "45",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "9s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3077079169,
+  "name": "High-Velocity Rounds",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/high_velocity_rounds.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Bullet Velocity",
+    "value": "45%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "8%",
+    "cls": "bullet_damage"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1009965641,
+  "name": "Monster Rounds",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/monster_rounds.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Weapon Damage vs. NPCs",
+    "value": "25%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Resist vs. NPCs",
+    "value": "25%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "1",
+    "cls": "healing"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 668299740,
+  "name": "Rapid Rounds",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/rapid_rounds.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Fire Rate",
+    "value": "9%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3862866912,
+  "name": "Restorative Shot",
+  "slot": "weapon",
+  "tier": 1,
+  "cost": 800,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/restorative_shot.webp",
+  "text": "Your next bullet will <span class=\"highlight\">heal</span> you based on what target you hit.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "6%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Healing From Heroes",
+    "value": "50",
+    "cls": "healing"
+   },
+   {
+    "label": "Healing From NPCs / Orbs",
+    "value": "20",
+    "cls": "healing"
+   },
+   {
+    "label": "Cooldown",
+    "value": "6s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 381961617,
+  "name": "Active Reload",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/active_reload.webp",
+  "text": "While reloading, pressing Reload during the highlighted portion will <span class=\"highlight\">instantly finish your reload</span> and grant you <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Bullet Lifesteal</span> and <span class=\"highlight\">Move Speed</span>.",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Fire Rate",
+    "value": "25%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Bullet Lifesteal",
+    "value": "16%",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "0.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "12s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3403085434,
+  "name": "Fleetfoot",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/fleetfoot.webp",
+  "text": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "6%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Slide Distance",
+    "value": "35%",
+    "cls": "movement_speed"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "6%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Move Speed",
+    "value": "3.0m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Slow Resist",
+    "value": "40%",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Duration",
+    "value": "5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "16s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2407033488,
+  "name": "Intensifying Magazine",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/intensifying_magazine.webp",
+  "text": "Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon.",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Max Weapon Damage",
+    "value": "45%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Time for Max Damage",
+    "value": "2.5s",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3977876567,
+  "name": "Kinetic Dash",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/kinetic_dash.webp",
+  "text": "When you <span class=\"highlight\">Dash-Jump</span> you gain <span class=\"highlight\">Fire Rate</span> and bonus <span class=\"highlight\">Ammo</span> until your next reload. Lasts up to 7s.",
+  "props": [
+   {
+    "label": "Stamina",
+    "value": "1",
+    "cls": ""
+   },
+   {
+    "label": "Stamina Recovery",
+    "value": "12%",
+    "cls": ""
+   },
+   {
+    "label": "Fire Rate",
+    "value": "25%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Temporary Ammo",
+    "value": "6",
+    "cls": "clipsize"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Extra Stamina"
+  ]
+ },
+ {
+  "id": 3331811235,
+  "name": "Long Range",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/long_range.webp",
+  "text": "Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target.",
+  "props": [
+   {
+    "label": "Weapon Fall-off Range",
+    "value": "8%",
+    "cls": "distance"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "40%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Min. Distance",
+    "value": "15m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 26002154,
+  "name": "Melee Charge",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/melee_charge.webp",
+  "text": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span>.",
+  "props": [
+   {
+    "label": "Heavy Melee Distance",
+    "value": "50%",
+    "cls": ""
+   },
+   {
+    "label": "Melee Damage",
+    "value": "10%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "6%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Bonus Heavy Damage",
+    "value": "25%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "5s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 395867183,
+  "name": "Mystic Shot",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/mystic_shot.webp",
+  "text": "Your next bullet deals bonus <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span>.",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "7",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Damage",
+    "value": "40",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "8s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2064029594,
+  "name": "Opening Rounds",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/opening_rounds.webp",
+  "text": "Your attacks have additional <span class=\"highlight\">Weapon Damage</span> against <span class=\"highlight\">enemies above 50% health</span>.",
+  "props": [
+   {
+    "label": "Bullet Velocity",
+    "value": "60%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "8%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "7",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "25%",
+    "cls": "bullet_damage"
+   }
+  ],
+  "components": [
+   "High-Velocity Rounds"
+  ]
+ },
+ {
+  "id": 1763073141,
+  "name": "Recharging Rush",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/recharging_rounds.webp",
+  "text": "Dealing significant <span class=\"inline-attribute-label WeaponDamage\">weapon damage</span> replenishes a charge for <span class=\"highlight\">each of your charged abilities</span>.",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Damage Threshold",
+    "value": "200",
+    "cls": ""
+   },
+   {
+    "label": "Cooldown",
+    "value": "25s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Time Frame",
+    "value": "3.5s",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 393974127,
+  "name": "Slowing Bullets",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/slowing_bullets.webp",
+  "text": "Your bullets build up a <span class=\"highlight\">Movement Slow</span> on enemies.",
+  "props": [
+   {
+    "label": "Move Speed",
+    "value": "24%",
+    "cls": "slow"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-20%",
+    "cls": "slow"
+   },
+   {
+    "label": "Slow Duration",
+    "value": "3.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "0.7%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1144549437,
+  "name": "Spirit Shredder",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spirit_shredder_bullets.webp",
+  "text": "Your bullets apply a debuff that reduces the <span class=\"highlight\">Spirit Resist</span> of the target and grants you and your allies <span class=\"highlight\">Spirit Lifesteal</span> against them.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "-8%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Spirit Lifesteal",
+    "value": "10%",
+    "cls": "healing"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3647584222,
+  "name": "Split Shot",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/split_shot.webp",
+  "text": "Make your weapon fire <span class=\"highlight\">multishot</span>. <br><br> Hitting more than one Hero per attack will grant a <span class=\"highlight\">stacking weapon damage bonus</span>. <br><br><span class=\"diminish\">Targets can only be hit once per multishot.</span>",
+  "props": [
+   {
+    "label": "Weapon Multishot",
+    "value": "5",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Weapon Damage per Stack",
+    "value": "8%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "27s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Buff Duration",
+    "value": "5s",
+    "cls": ""
+   },
+   {
+    "label": "Max Stacks",
+    "value": "5",
+    "cls": ""
+   },
+   {
+    "label": "Stack Duration",
+    "value": "12s",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 98582110,
+  "name": "Stalker",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/backstabber.webp",
+  "text": "Dealing <span class=\"inline-attribute-label WeaponDamage\">weapon damage</span> at close range opens a wound and grants you <span class=\"inline-attribute-label BonusMoveSpeed\">bonus move speed</span>. <br><br>Wounded enemies take <span class=\"inline-attribute-label SpiritDPS\">spirit damage over time</span>, have reduced <span class=\"inline-attribute-label BulletResist\">bullet resist</span>, and are revealed <span class=\"highlight\">through walls</span>.",
+  "props": [
+   {
+    "label": "Footstep Sound Distance",
+    "value": "-50%",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Damage Per Second",
+    "value": "17",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-6%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.5m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Cooldown",
+    "value": "6s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "5s",
+    "cls": ""
+   },
+   {
+    "label": "Close Range",
+    "value": "8m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 4104549924,
+  "name": "Swift Striker",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/swift_striker.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Fire Rate",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   }
+  ],
+  "components": [
+   "Rapid Rounds"
+  ]
+ },
+ {
+  "id": 2356412290,
+  "name": "Titanic Magazine",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/titanic_magazine.webp",
+  "text": "",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "100%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "14%",
+    "cls": "bullet_damage"
+   }
+  ],
+  "components": [
+   "Extended Magazine"
+  ]
+ },
+ {
+  "id": 1770441818,
+  "name": "Weakening Headshot",
+  "slot": "weapon",
+  "tier": 2,
+  "cost": 1600,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/weakening_headshot.webp",
+  "text": "Landing a <span class=\"highlight\">Headshot</span> reduces their <span class=\"highlight\">Bullet Resist</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "60",
+    "cls": "health"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-12%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "12s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1932939246,
+  "name": "Alchemical Fire",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/alchemical_fire.webp",
+  "text": "Throw a flask that explodes on contact, creating an area that does increasing <span class=\"inline-attribute-label SpiritDamage\">spirit damage</span> <span class=\"highlight\">per second</span> and reduces enemy <span class=\"highlight\">Bullet Resist</span>.<br><br>50% less effective vs non-heroes.",
+  "props": [
+   {
+    "label": "Spirit Power",
+    "value": "10",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Damage Per Second",
+    "value": "45",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-7%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Max DPS",
+    "value": "95",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Radius",
+    "value": "10m",
+    "cls": "distance"
+   },
+   {
+    "label": "Duration",
+    "value": "5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "30s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3294954488,
+  "name": "Ballistic Enchantment",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/alchemical_seal.webp",
+  "text": "Imbue an ability with increased <span class=\"highlight\">range</span>. Dealing damage with that ability grants you increased <span class=\"highlight\">weapon damage</span> per <span class=\"highlight\">unique hero hit</span>. Has reduced effect on non-heroes.",
+  "props": [
+   {
+    "label": "Weapon Damage per Stack",
+    "value": "20%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Ability Range",
+    "value": "22%",
+    "cls": "distance"
+   },
+   {
+    "label": "Duration",
+    "value": "20s",
+    "cls": "duration"
+   },
+   {
+    "label": "Non-Hero Weapon Damage",
+    "value": "5%",
+    "cls": ""
+   },
+   {
+    "label": "Non-Hero Stack Limit",
+    "value": "8",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Mystic Expansion"
+  ]
+ },
+ {
+  "id": 1414319208,
+  "name": "Berserker",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/berserker.webp",
+  "text": "Your <span class=\"highlight\">Weapon Damage</span> increases as you take sustained damage.",
+  "props": [
+   {
+    "label": "Bullet Resist",
+    "value": "8%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Weapon Damage per Stack",
+    "value": "7%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Damage taken to Stack",
+    "value": "120",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "10",
+    "cls": ""
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 989206714,
+  "name": "Blood Tribute",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast_toggle",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/blood_tribute.webp",
+  "text": "Toggle: Continually sacrifice Health to improve <span class=\"inline-attribute-label FireRate\">fire rate</span>, <span class=\"highlight\">Debuff Resistance</span> and <span class=\"highlight\">Move Speed</span>.",
+  "props": [
+   {
+    "label": "Debuff Resist",
+    "value": "8%",
+    "cls": "duration"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "8%",
+    "cls": ""
+   },
+   {
+    "label": "Out of Combat Regen",
+    "value": "4",
+    "cls": "healing"
+   },
+   {
+    "label": "Health Drain",
+    "value": "50/s",
+    "cls": "damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "35%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "35%",
+    "cls": "duration"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2.0m m",
+    "cls": "move_speed"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2739107182,
+  "name": "Burst Fire",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/burst_fire.webp",
+  "text": "Briefly gain <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Move Speed</span> when one of your bullets hits a hero.",
+  "props": [
+   {
+    "label": "Slide Distance",
+    "value": "50%",
+    "cls": "movement_speed"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "10%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "32%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.25m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Duration",
+    "value": "4.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "9s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Rapid Rounds"
+  ]
+ },
+ {
+  "id": 709540378,
+  "name": "Cultist Sacrifice",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "press",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/cultist_sacrifice.webp",
+  "text": "Target an enemy NPC and consume it for <span class=\"highlight\">170% Bonus Souls</span> and grants a powerful long lasting buff.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "2",
+    "cls": "healing"
+   },
+   {
+    "label": "Weapon Damage vs. NPCs",
+    "value": "30%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Resist vs. NPCs",
+    "value": "30%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Ability Range",
+    "value": "12%",
+    "cls": "distance"
+   },
+   {
+    "label": "Cooldown",
+    "value": "270s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "160s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Monster Rounds"
+  ]
+ },
+ {
+  "id": 2463960640,
+  "name": "Escalating Resilience",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/escalating_resilience.webp",
+  "text": "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit a hero. <span class=\"highlight\">Each shot can only grant one stack.</span>",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "35%",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "18%",
+    "cls": ""
+   },
+   {
+    "label": "Max Bullet Resist",
+    "value": "30%",
+    "cls": ""
+   },
+   {
+    "label": "Bullet Resist per Stack",
+    "value": "2%",
+    "cls": ""
+   },
+   {
+    "label": "Stack Duration",
+    "value": "24s",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Extended Magazine"
+  ]
+ },
+ {
+  "id": 690458959,
+  "name": "Express Shot",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/express_shot.webp",
+  "text": "Your next attack will <span class=\"highlight\">fire twice</span> in quick succession with <span class=\"highlight\">increased damage</span> and velocity. This attack consumes extra ammo.",
+  "props": [
+   {
+    "label": "Bullet Velocity",
+    "value": "60%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "8%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "125%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Secondary Fire Weapon Damage",
+    "value": "38%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Velocity",
+    "value": "100%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Extra Ammo Consumed",
+    "value": "2",
+    "cls": ""
+   },
+   {
+    "label": "Cooldown",
+    "value": "8s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "High-Velocity Rounds"
+  ]
+ },
+ {
+  "id": 4053935515,
+  "name": "Headhunter",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/headhunter.webp",
+  "text": "Your next <span class=\"highlight\">headshot</span> against an enemy Hero deals <span class=\"inline-attribute-label BonusWeaponDamage\">bonus weapon damage</span>, <span class=\"inline-attribute-label Heal\">heal</span> you, and briefly grants <span class=\"inline-attribute-label BonusMoveSpeed\">bonus move speed</span>.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "5%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "50",
+    "cls": "health"
+   },
+   {
+    "label": "Head Shot Bonus Damage",
+    "value": "75",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Heal Per Headshot",
+    "value": "4%",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "1.75m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed Duration",
+    "value": "3s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "8s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Headshot Booster"
+  ]
+ },
+ {
+  "id": 2108215830,
+  "name": "Heroic Aura",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/heroic_aura.webp",
+  "text": "Provides <span class=\"highlight\">Bullet Resist</span> to nearby friendly units.",
+  "props": [
+   {
+    "label": "Sprint Speed",
+    "value": "1.5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "17%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Radius",
+    "value": "35m",
+    "cls": "distance"
+   },
+   {
+    "label": "Move Speed",
+    "value": "2.25m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "26%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Active Radius",
+    "value": "35m",
+    "cls": "distance"
+   },
+   {
+    "label": "Duration",
+    "value": "7s",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "22s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2678489038,
+  "name": "Hollow Point",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/hollow_point.webp",
+  "text": "When you are <span class=\"highlight\">above 65% health</span>, deal additional <span class=\"highlight\">Weapon Damage</span> and your bullets reduce enemy <span class=\"highlight\">Bullet Resist</span>.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "4.5",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "35%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-10%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2481177645,
+  "name": "Hunter's Aura",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/hunters_aura.webp",
+  "text": "Reduces nearby enemies' <span class=\"highlight\">Bullet Resist and Fire Rate</span>. If there is only one enemy hero nearby, this <span class=\"highlight\">effect is doubled</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "100",
+    "cls": "health"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "0.75m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-10%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "15%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Radius",
+    "value": "15m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2095565695,
+  "name": "Point Blank",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/point_blank.webp",
+  "text": "When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">Weapon Damage</span> and your bullets apply a <span class=\"highlight\">Movement Slow</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Melee Resist",
+    "value": "30%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "50%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Move Speed",
+    "value": "20%",
+    "cls": "slow"
+   },
+   {
+    "label": "Slow Duration",
+    "value": "2.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Close Range",
+    "value": "15m",
+    "cls": "distance"
+   }
+  ],
+  "components": [
+   "Close Quarters"
+  ]
+ },
+ {
+  "id": 1798666702,
+  "name": "Shadow Weave",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/shadow_weave.webp",
+  "text": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
+  "props": [
+   {
+    "label": "Out of Combat Regen",
+    "value": "5",
+    "cls": "healing"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "2m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Stealth Duration",
+    "value": "13s",
+    "cls": "duration"
+   },
+   {
+    "label": "Spot Radius",
+    "value": "20m",
+    "cls": ""
+   },
+   {
+    "label": "Invis Sprint Speed",
+    "value": "5m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Ambush Weapon Damage",
+    "value": "50%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Ambush Spirit Power",
+    "value": "25",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Ambush Duration",
+    "value": "5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Time to Full Ambush",
+    "value": "6s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Sprint Boots"
+  ]
+ },
+ {
+  "id": 2152872419,
+  "name": "Sharpshooter",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/sharp_shooter.webp",
+  "text": "Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target.",
+  "props": [
+   {
+    "label": "Weapon Fall-off Range",
+    "value": "20%",
+    "cls": "distance"
+   },
+   {
+    "label": "Weapon Zoom",
+    "value": "25%",
+    "cls": "distance"
+   },
+   {
+    "label": "Bullet Velocity",
+    "value": "60%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "10%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Sprint Speed",
+    "value": "1.0m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed",
+    "value": "-0.7m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "60%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Min. Distance",
+    "value": "15m",
+    "cls": "distance"
+   }
+  ],
+  "components": [
+   "Long Range",
+   "High-Velocity Rounds"
+  ]
+ },
+ {
+  "id": 4075861416,
+  "name": "Spirit Rend",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spellslinger_headshots.webp",
+  "text": "Your bullets apply a debuff that reduces the <span class=\"highlight\">Spirit Resist</span> of the target and grants you and your allies <span class=\"highlight\">Spirit Lifesteal</span> against them.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "75",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-8%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Spirit Lifesteal",
+    "value": "10%",
+    "cls": "healing"
+   },
+   {
+    "label": "Spirit Resist on Headshot",
+    "value": "-7%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "8s",
+    "cls": "duration"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "4",
+    "cls": ""
+   },
+   {
+    "label": "Max Frequency",
+    "value": "2s",
+    "cls": "cooldown"
+   }
+  ],
+  "components": [
+   "Spirit Shredder"
+  ]
+ },
+ {
+  "id": 811521119,
+  "name": "Tesla Bullets",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/tesla_bullets.webp",
+  "text": "Your bullets have a chance to <span class=\"highlight\">shock</span> your target. The <span class=\"highlight\">shock</span> will jump to a nearby enemy.",
+  "props": [
+   {
+    "label": "Shock Damage",
+    "value": "33",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Proc Chance",
+    "value": "15%",
+    "cls": ""
+   },
+   {
+    "label": "Max Frequency",
+    "value": "0.2s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Max Jumps",
+    "value": "4",
+    "cls": ""
+   },
+   {
+    "label": "Jump Radius",
+    "value": "8m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3696726732,
+  "name": "Toxic Bullets",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/toxic_bullets.webp",
+  "text": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also reduces <span class=\"highlight\">Incoming Healing</span> on the bleeding target.",
+  "props": [
+   {
+    "label": "Bleed Damage",
+    "value": "1.9% DPS",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-40%",
+    "cls": "damage"
+   },
+   {
+    "label": "Duration",
+    "value": "4s",
+    "cls": "duration"
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "1.28%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 3791587546,
+  "name": "Weighted Shots",
+  "slot": "weapon",
+  "tier": 3,
+  "cost": 3200,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/weighted_shots.webp",
+  "text": "Your bullets build up a <span class=\"highlight\">Movement Slow</span> on enemies.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "30%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "22%",
+    "cls": "duration"
+   },
+   {
+    "label": "Stamina Recovery",
+    "value": "-14%",
+    "cls": ""
+   },
+   {
+    "label": "Move Speed",
+    "value": "-0.5m m",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Move Speed",
+    "value": "24%",
+    "cls": "slow"
+   },
+   {
+    "label": "Dash Distance",
+    "value": "-20%",
+    "cls": "slow"
+   },
+   {
+    "label": "Slow Duration",
+    "value": "3.5s",
+    "cls": "duration"
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "0.7%",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "Slowing Bullets"
+  ]
+ },
+ {
+  "id": 673001892,
+  "name": "Armor Piercer",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/armor_piercing_rounds.webp",
+  "text": "Your Bullets have a chance to become unavoidable, <span class=\"highlight\">piercing through</span> enemies and <span class=\"highlight\">ignoring their Bullet Resistance</span>.",
+  "props": [
+   {
+    "label": "Bullet Velocity",
+    "value": "60%",
+    "cls": ""
+   },
+   {
+    "label": "Weapon Damage",
+    "value": "8%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Proc Chance",
+    "value": "60%",
+    "cls": ""
+   }
+  ],
+  "components": [
+   "High-Velocity Rounds"
+  ]
+ },
+ {
+  "id": 710436191,
+  "name": "Capacitor",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": true,
+  "activation": "instant_cast",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/capacitor.webp",
+  "text": "Launch a projectile that deals <span class=\"highlight\"> damage</span>, applies a strong slow that recovers over time, <span class=\"highlight\">prevents Stamina usage</span> and <span class=\"highlight\">Silences</span> their <span class=\"highlight\">movement-based items and abilities</span>.",
+  "props": [
+   {
+    "label": "Fire Rate",
+    "value": "5%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Shock Damage",
+    "value": "43",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Proc Chance",
+    "value": "20%",
+    "cls": ""
+   },
+   {
+    "label": "Max Frequency",
+    "value": "0.2s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Max Jumps",
+    "value": "6",
+    "cls": ""
+   },
+   {
+    "label": "Jump Radius",
+    "value": "10m",
+    "cls": "distance"
+   },
+   {
+    "label": "Damage",
+    "value": "100",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Max Move Speed",
+    "value": "60%",
+    "cls": "slow"
+   },
+   {
+    "label": "Cooldown",
+    "value": "40s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Slow Duration",
+    "value": "3s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Tesla Bullets"
+  ]
+ },
+ {
+  "id": 3884003354,
+  "name": "Crippling Headshot",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/crippling_headshot.webp",
+  "text": "Landing a <span class=\"highlight\">Headshot</span> will reduce their <span class=\"highlight\">Bullet, Spirit Resist, and Incoming Healing</span>.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "125",
+    "cls": "health"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-16%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Spirit Resist",
+    "value": "-16%",
+    "cls": "tech_armor_down"
+   },
+   {
+    "label": "Incoming Healing",
+    "value": "-40%",
+    "cls": "damage"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "12s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Weakening Headshot"
+  ]
+ },
+ {
+  "id": 800008313,
+  "name": "Crushing Fists",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/crushing_fists.webp",
+  "text": "Your <span class=\"highlight\"><span class=\"inline-attribute-label MeleeDamage\">melee damage</span></span> will <span class=\"highlight\">restore ammo</span> and apply a <span class=\"highlight\">stacking bullet resist debuff</span> on enemies. Heavy melee applies 2 stacks. <br><br>If the target reaches max stacks, they will be <span class=\"highlight\">stunned</span>.",
+  "props": [
+   {
+    "label": "Heavy Melee Distance",
+    "value": "60%",
+    "cls": ""
+   },
+   {
+    "label": "Melee Damage",
+    "value": "22%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "12%",
+    "cls": "bullet_armor_up"
+   },
+   {
+    "label": "Bonus Heavy Damage",
+    "value": "25%",
+    "cls": "melee_damage"
+   },
+   {
+    "label": "Cooldown",
+    "value": "5s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Ammo",
+    "value": "15%",
+    "cls": "clipsize"
+   },
+   {
+    "label": "Bullet Resist",
+    "value": "-5%",
+    "cls": "bullet_armor_down"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "6",
+    "cls": ""
+   },
+   {
+    "label": "Stun Duration",
+    "value": "0.75s",
+    "cls": ""
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "8s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Melee Charge"
+  ]
+ },
+ {
+  "id": 339443430,
+  "name": "Frenzy",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/frenzy.webp",
+  "text": "While you are <span class=\"highlight\">below 50% health</span>, you gain stat bonuses for a duration and existing debuffs on you are reduced.",
+  "props": [
+   {
+    "label": "Bonus Health",
+    "value": "160",
+    "cls": "health"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "15%",
+    "cls": ""
+   },
+   {
+    "label": "Bullet Lifesteal",
+    "value": "10%",
+    "cls": "healing"
+   },
+   {
+    "label": "Move Speed",
+    "value": "4m m/s",
+    "cls": "move_speed"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "40%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Debuff Resist",
+    "value": "40%",
+    "cls": "duration"
+   },
+   {
+    "label": "Cooldown",
+    "value": "16s",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Duration",
+    "value": "10s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 365620721,
+  "name": "Glass Cannon",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/glass_cannon.webp",
+  "text": "Each hero kill grants <span class=\"highlight\">permanent Fire Rate</span> (up to a max of 8 times). Death results in the loss of 1 stack.",
+  "props": [
+   {
+    "label": "Weapon Damage",
+    "value": "85%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Max Health",
+    "value": "-13%",
+    "cls": "health"
+   },
+   {
+    "label": "Fire Rate per Kill",
+    "value": "7%",
+    "cls": "fire_rate"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1396247347,
+  "name": "Lucky Shot",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/lucky_shot.webp",
+  "text": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus weapon damage</span> on hit.<br><span class=\"diminish\">Bonus damage cannot Crit.</span>",
+  "props": [
+   {
+    "label": "Max Ammo",
+    "value": "30%",
+    "cls": ""
+   },
+   {
+    "label": "Bonus Weapon Damage",
+    "value": "100%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Proc Chance",
+    "value": "25%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2480592370,
+  "name": "Ricochet",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/ricochet.webp",
+  "text": "Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>",
+  "props": [
+   {
+    "label": "Fire Rate",
+    "value": "18%",
+    "cls": ""
+   },
+   {
+    "label": "Ricochet Damage",
+    "value": "65%",
+    "cls": "bullet_damage"
+   },
+   {
+    "label": "Ricochet Targets",
+    "value": "2",
+    "cls": ""
+   },
+   {
+    "label": "Ricochet Range",
+    "value": "13m",
+    "cls": "distance"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 1113837674,
+  "name": "Silencer",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/silencer.webp",
+  "text": "Your bullets build up to a <span class=\"highlight\">Silence</span>. Victims are immune to the build up for <span class=\"highlight\">10s</span> after silence expires.",
+  "props": [
+   {
+    "label": "Spirit Resist",
+    "value": "12%",
+    "cls": "tech_armor_up"
+   },
+   {
+    "label": "Spirit Damage Reduction",
+    "value": "-25%",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Debuff Duration",
+    "value": "6s",
+    "cls": ""
+   },
+   {
+    "label": "Immunity Duration",
+    "value": "10s",
+    "cls": ""
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "1.04%",
+    "cls": ""
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2221211450,
+  "name": "Spellslinger",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spell_slinger.webp",
+  "text": "While in-combat whenever you cast an ability or item, gain a stacking buff that improves fire rate and reload speed. <br><span class=\"diminish\">Each stack refreshes the duration.</span>",
+  "props": [
+   {
+    "label": "Ability Cooldown Reduction",
+    "value": "5%",
+    "cls": "cooldown"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "11%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Reload Time",
+    "value": "-10%",
+    "cls": "reload_speed"
+   },
+   {
+    "label": "Max Stacks",
+    "value": "6",
+    "cls": ""
+   },
+   {
+    "label": "Buff Duration",
+    "value": "18s",
+    "cls": "duration"
+   }
+  ],
+  "components": []
+ },
+ {
+  "id": 2226497419,
+  "name": "Spiritual Overflow",
+  "slot": "weapon",
+  "tier": 4,
+  "cost": 6400,
+  "active": false,
+  "activation": "passive",
+  "image": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/spiritual_overflow.webp",
+  "text": "Gain bonus <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Spirit Lifesteal</span> by <span class=\"highlight\">charging up</span> when shooting heroes.",
+  "props": [
+   {
+    "label": "Ability Duration",
+    "value": "13%",
+    "cls": "duration"
+   },
+   {
+    "label": "Spirit Lifesteal",
+    "value": "15%",
+    "cls": "healing"
+   },
+   {
+    "label": "Bonus Health",
+    "value": "90",
+    "cls": "health"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "8",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Fire Rate",
+    "value": "25%",
+    "cls": "fire_rate"
+   },
+   {
+    "label": "Spirit Power",
+    "value": "30",
+    "cls": "tech_damage"
+   },
+   {
+    "label": "Spirit Lifesteal",
+    "value": "10%",
+    "cls": "healing"
+   },
+   {
+    "label": "Buildup Per Shot",
+    "value": "1.08%",
+    "cls": ""
+   },
+   {
+    "label": "Duration",
+    "value": "15s",
+    "cls": "duration"
+   }
+  ],
+  "components": [
+   "Spirit Lifesteal"
+  ]
+ }
+]

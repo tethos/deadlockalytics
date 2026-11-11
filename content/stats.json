@@ -1,0 +1,34 @@
+{
+  "asOfPatch": "Oct 30 2026 (Halloween + Gameplay Update)",
+  "method": "Every number on this tab is live from deadlock-api.com analytics (standard matches, ranked + unranked) for the chosen period and the average rank of both teams. This page only adds labels and short explanations.",
+  "sources": [
+    { "label": "deadlock-api.com analytics docs", "url": "https://api.deadlock-api.com/docs" },
+    { "label": "Wiki: Souls", "url": "https://deadlock.wiki/Souls" }
+  ],
+  "flags": [
+    "Soul source names marked ⚠ are the API's own category names (for example \"treasure\" or \"boss\"). Exactly which in-game pickups each one covers isn't documented.",
+    "Sides are shown as the API's team 0 and team 1. Which in-game team each one is hasn't been verified here."
+  ],
+  "sections": {
+    "pulse": "What an average match looks like right now, per player. Use it to calibrate: if your games run much shorter or your deaths are far higher, that's a signal.",
+    "souls": "Where the average player's souls come from. Lane troopers and kills are only part of it, so the rest of the map matters too.",
+    "ranks": "Where ranked players sit, by the rank shown at the end of their latest ranked match in this period. This chart ignores the rank filter above.",
+    "bans": "How often each hero gets banned, out of the matches where the API could read the bans. Heavily banned heroes are the ones players find most frustrating to face.",
+    "items": "How often each shop item gets bought and when. Win rate shows how often the buyer's team won."
+  },
+  "itemWinCaveat": "Item win rate isn't item strength. Expensive items are mostly bought by players who are already ahead, so they look better than they are.",
+  "soulSources": [
+    { "key": "avg_gold_lane_creep", "label": "Lane troopers", "color": "#e9b24c" },
+    { "key": "avg_gold_neutral_creep", "label": "Haunts (neutral camps)", "color": "#7fd16b" },
+    { "key": "avg_gold_player", "label": "Hero kills", "color": "#ff5d73" },
+    { "key": "avg_gold_assists", "label": "Assists", "color": "#ff9f43" },
+    { "key": "avg_gold_breakable", "label": "Crates & breakables", "color": "#c9a27a" },
+    { "key": "avg_gold_boss", "label": "Bosses", "color": "#b98af5", "flag": true },
+    { "key": "avg_gold_treasure", "label": "Treasure", "color": "#f6d155", "flag": true },
+    { "key": "avg_gold_team_bonus", "label": "Team bonus", "color": "#5fb4f5", "flag": true },
+    { "key": "avg_gold_item_trophy_collector", "label": "Trophy Collector (item)", "color": "#9fe3ff" },
+    { "key": "avg_gold_denied", "label": "Denies", "color": "#8a8f9c", "flag": true },
+    { "key": "avg_gold_item_cultist_sacrifice", "label": "Cultist Sacrifice (item)", "color": "#d77fd1" },
+    { "key": "avg_gold_item_goose_egg", "label": "Golden Goose Egg (item)", "color": "#fff1a8" }
+  ]
+}

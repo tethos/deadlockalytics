@@ -1,0 +1,96 @@
+{
+  "asOfPatch": "Oct 30 2026 (Halloween + Gameplay Update)",
+  "sources": [
+    { "label": "Wiki: Patron", "url": "https://deadlock.wiki/Patron" },
+    { "label": "Wiki: Lane Guardian", "url": "https://deadlock.wiki/Lane_Guardian" },
+    { "label": "Wiki: Walker", "url": "https://deadlock.wiki/Walker" },
+    { "label": "Wiki: Base Guardian", "url": "https://deadlock.wiki/Base_Guardian" },
+    { "label": "Wiki: Shrine", "url": "https://deadlock.wiki/Shrine" },
+    { "label": "Wiki: Souls", "url": "https://deadlock.wiki/Souls" },
+    { "label": "Wiki: Cosmic Veil", "url": "https://deadlock.wiki/Cosmic_Veil" },
+    { "label": "Wiki: Rejuvenator", "url": "https://deadlock.wiki/Rejuvenator" },
+    { "label": "Patch Sep 29 2026", "url": "https://deadlock.wiki/Update:September_29,_2026" },
+    { "label": "Patch Oct 30 2026", "url": "https://deadlock.wiki/Update:October_30,_2026" }
+  ],
+  "flags": [
+    "Default key bindings are not listed here yet — they'll be verified for the Settings & Keybinds tab.",
+    "Shrine bullet resist is listed as both 20% and 10% on the wiki, so it's left out."
+  ],
+  "tldr": [
+    "6 vs 6. Destroy the enemy Patron (the big boss in their base) to win.",
+    "Souls are your money and your experience: they buy items and level up your abilities.",
+    "Kill troopers, then shoot the glowing orb they drop to secure the souls.",
+    "Towers must fall in order: Guardian → Walker → Base Guardians → Shrines → Patron.",
+    "Respawns start at seconds and grow to 90s — late-game deaths decide matches."
+  ],
+  "chain": [
+    { "name": "Lane Guardian", "count": "1 per lane", "facts": ["Takes +50% less damage at 0:00, shrinking to −50% (extra damage) at 12:00.", "Bounty: 1375 souls."] },
+    { "name": "Walker", "count": "1 per lane", "facts": ["Only damageable after that lane's Guardian is gone.", "Has backdoor protection: 65% less damage taken and 65 HP/s regen.", "Destroying one gives 3675 souls and an extra item slot to everyone on the team."] },
+    { "name": "Base Guardians", "count": "2 per lane", "facts": ["4000 HP each, 1000 souls.", "Killing them gives your team faster ziplines in that lane."] },
+    { "name": "Shrines", "count": "2", "facts": ["Invulnerable until one pair of Base Guardians falls.", "Killing one turns your troopers in that lane into Super Troopers.", "When both are down, the enemy Patron can be damaged."] },
+    { "name": "Patron", "count": "1", "facts": ["Unkillable until both Shrines are destroyed.", "At half HP it turns into the Weakened Patron: only damageable from inside its pit, and resistant when defenders stand in the pit.", "Destroy it to win."] }
+  ],
+  "sections": [
+    {
+      "id": "souls",
+      "icon": "◈",
+      "title": "Souls: your economy",
+      "points": [
+        "Souls do two jobs: buy items at shops, and level you up so you can upgrade abilities.",
+        "When a trooper dies to your last hit, a soul orb pops out. Shoot it to secure the full value; the enemy can shoot it first to deny you.",
+        "Other soul sources: Haunts (jungle camps), crates, Sinner's Sacrifice, the Soul Urn, the Rift, Guardians and Walkers, and hero kills.",
+        "The team that's behind gets comeback help: more souls from non-hero sources (up to +30%) and faster orb securing in Haunts."
+      ]
+    },
+    {
+      "id": "combat",
+      "icon": "✦",
+      "title": "Your kit",
+      "points": [
+        "Every hero has a gun and 4 abilities. The 4th is the ultimate.",
+        "Melee: light and heavy. Heavy melee breaks Tough Crates, Rejuvenator crystals and claims powerups.",
+        "Parry counters an enemy's melee. Since Sep 29, parrying objectives no longer resets your parry cooldown.",
+        "Stamina powers dashes and climbing. Out of stamina = no escape, so keep one dash in reserve."
+      ]
+    },
+    {
+      "id": "map",
+      "icon": "⌖",
+      "title": "Getting around the map",
+      "points": [
+        "3 lanes. Ziplines carry you quickly from base out to each lane — use them to get back after dying.",
+        "Steam Vents: standing on one makes you invisible, heals you, and gives +150% stamina regen.",
+        "Cosmic Veils are one-way walls of mist at juke rooms and under arches: you can't see enemies on the far (grey) side.",
+        "Healing Snacks are hidden around the map and heal 14% max HP.",
+        "Bell Tower: hitting things there rings a bell everyone hears (with a minimap ping)."
+      ]
+    },
+    {
+      "id": "neutral",
+      "icon": "☗",
+      "title": "Neutral objectives",
+      "points": [
+        "Haunts: jungle camps in three tiers that spawn at 2:00, 5:00 and 8:00.",
+        "Soul Urn (from 10:00): carry it across the map for big team souls and 4 permanent buffs.",
+        "Mid-Boss: in the middle pit. Killing it drops 3 Rejuvenator crystals — each heavy-melee gives your team one free revive (3 min, revive at full HP after 3s).",
+        "Unstable Rift (from ~11:00): capture point that spawns Rift Troopers for the winner."
+      ]
+    },
+    {
+      "id": "death",
+      "icon": "✝",
+      "title": "Dying",
+      "points": [
+        "Respawn time grows with the match: 8s at 5:00, 38s at 20:00, 70s at 30:00, 85s at 40:00, max 90s.",
+        "The Match Timeline tab shows the current respawn time with the timer running.",
+        "Dying to troopers or towers with no enemy hero involved adds 10s."
+      ]
+    }
+  ],
+  "firstMatches": [
+    "Play an Easy hero from the Heroes tab (filter: Beginner-friendly).",
+    "Buy the most common early items from the hero's 'What players buy' list — don't theorycraft yet.",
+    "Focus on one skill per match: orb securing, then map awareness, then objective timings.",
+    "Keep this screen on the Match Timeline tab and press Start when the match clock starts."
+  ]
+}

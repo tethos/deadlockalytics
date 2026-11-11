@@ -1,0 +1,100 @@
+{
+  "asOfPatch": "Oct 30 2026 (Halloween + Gameplay Update)",
+  "sources": [
+    { "label": "Wiki: Soul Urn", "url": "https://deadlock.wiki/Soul_Urn" },
+    { "label": "Wiki: Midboss", "url": "https://deadlock.wiki/Midboss" },
+    { "label": "Wiki: Haunt", "url": "https://deadlock.wiki/Haunt" },
+    { "label": "Wiki: Buff Container", "url": "https://deadlock.wiki/Buff_Container" },
+    { "label": "Wiki: Crate", "url": "https://deadlock.wiki/Crate" },
+    { "label": "Wiki: Powerups", "url": "https://deadlock.wiki/Powerups" },
+    { "label": "Wiki: Sinner's Sacrifice", "url": "https://deadlock.wiki/Sinner%27s_Sacrifice" },
+    { "label": "Wiki: Unstable Rift", "url": "https://deadlock.wiki/Unstable_Rift" },
+    { "label": "Wiki: Trooper", "url": "https://deadlock.wiki/Trooper" },
+    { "label": "Wiki: Death (respawn)", "url": "https://deadlock.wiki/Death" },
+    { "label": "Wiki: Lane Guardian", "url": "https://deadlock.wiki/Lane_Guardian" },
+    { "label": "Patch Oct 30 2026", "url": "https://deadlock.wiki/Update:October_30,_2026" }
+  ],
+  "flags": [
+    "Powerups page was last updated Nov 2025 (before City Never Sleeps) — the 5:00 / every 5 min timing may have changed.",
+    "Unstable Rift timing varies by about ±1 minute per the wiki, so its countdown is approximate.",
+    "Sinner's Sacrifice: the Sep 29 patch says it now has 'variable timings to get the bonus' without details.",
+    "Respawn before 5:00 isn't documented; the wiki gives 8s at 5:00 and interpolates linearly between its listed points."
+  ],
+  "respawn": {
+    "points": [[300, 8], [1200, 38], [1800, 70], [2400, 85]],
+    "cap": 90,
+    "notes": [
+      "+10s if a non-hero unit kills you with no enemy hero involved.",
+      "Being killed while far richer than the enemy team (15–30% above their average) after 10:00 adds 6–22s.",
+      "When a team kills the first Patron phase, defenders' long respawns are cut by 20s."
+    ]
+  },
+  "events": [
+    { "id": "midboss", "at": 0, "name": "Mid-Boss is alive", "kind": "boss", "what": "Spawned from the start. After each kill it returns in 7 min, then 6, then 5 (use the Mid-Boss button to track it). Kill reward: souls, 2 permanent buffs each, and 3 Rejuvenator crystals — heavy-melee each one." },
+    { "id": "waves", "at": 0, "every": 30, "until": 1200, "name": "Trooper wave", "kind": "lane", "what": "A new wave every 30s until 20:00, every 25s until 35:00, then every 20s.", "hidden": true },
+    { "id": "smallHaunts", "at": 120, "name": "Small Haunts (Tier I)", "kind": "camp", "what": "First jungle camps spawn. Each camp respawns 1:25 after you clear it." },
+    { "id": "breakables", "at": 180, "name": "Crates & Buff Containers", "kind": "loot", "what": "Most crates and Buff Containers (golden statues) appear; each respawns 3 min after it's broken. Crates give souls; containers have a 50% chance to drop a permanent stat booklet." },
+    { "id": "powerups", "at": 300, "every": 300, "name": "Bridge powerups", "kind": "buff", "what": "Powerups appear on the bridges near the Urn spots. Heavy-melee to claim. Lasts 160s. At 5:00 the type is random; at 10:00 you get the other two types.", "flag": true },
+    { "id": "mediumHaunts", "at": 300, "name": "Medium Haunts (Tier II)", "kind": "camp", "what": "Tier II camps spawn. Respawn 4:50 after clearing." },
+    { "id": "tunnels", "at": 300, "name": "Tunnel & Bell Tower loot", "kind": "loot", "what": "Tunnel crates/containers (respawn 5 min) and the crates on top of the Bell Tower and in Sunken Plaza (respawn 3 min) appear." },
+    { "id": "troopersMix", "at": 300, "name": "Waves get a melee trooper", "kind": "lane", "what": "Waves change from 3 ranged + 1 medic to 2 ranged, 1 melee and 1 medic." },
+    { "id": "largeHaunts", "at": 480, "name": "Large Haunts (Tier III)", "kind": "camp", "what": "The biggest camps spawn. Respawn 5:35 after clearing." },
+    { "id": "sinners", "at": 480, "name": "Sinner's Sacrifice", "kind": "loot", "what": "Slot-machine vaults unlock. Light melee = 1 buff, heavy melee = 4 buffs on the jackpot. Respawns 5 min after being broken.", "flag": true },
+    { "id": "urn", "at": 600, "every": 300, "name": "Soul Urn", "kind": "objective", "what": "Spawns next to a bridge, alternating Yellow / Green side (first one is always Yellow). Carry it to the drop-off on the far side: 250 souls +70 per minute for the team, plus 4 random permanent buffs. Its value starts decaying after 45s of carrying." },
+    { "id": "pitRoom", "at": 600, "name": "Buff Container above Mid-Boss", "kind": "loot", "what": "The container in the room above the Mid-Boss pit appears (respawns 3 min after breaking)." },
+    { "id": "rift", "at": 660, "every": 420, "name": "Unstable Rift", "kind": "objective", "what": "Announced to everyone, opens 20s later. Stand in it to capture (12s; faster for the team that's behind). The winner gets Rift Troopers pushing for them. ~±1 min variance.", "approx": true },
+    { "id": "guardiansSoft", "at": 720, "name": "Lane Guardians at their weakest", "kind": "lane", "what": "Guardian damage resist falls from +50% at 0:00 to −50% at 12:00 — pushing towers is much easier from now on." },
+    { "id": "waves25", "at": 1200, "name": "Waves every 25s", "kind": "lane", "what": "Trooper waves speed up. Respawn is now ~38s; dying hurts more." },
+    { "id": "spiritResist", "at": 1500, "name": "Troopers gain 20% spirit resist", "kind": "lane", "what": "Clearing waves with abilities gets slightly harder (70% at 50:00)." },
+    { "id": "waves20", "at": 2100, "name": "Waves every 20s · +50% trooper HP", "kind": "lane", "what": "Late game: waves are fast and tanky. Respawn ~78s — one bad death can lose the game." },
+    { "id": "respawnCap", "at": 2400, "name": "Respawn ~85s (cap 90s)", "kind": "lane", "what": "Fight together and around Rejuvenator timings." }
+  ],
+  "phases": [
+    {
+      "id": "lane",
+      "name": "Laning",
+      "from": 0,
+      "to": 600,
+      "color": "#5fb4f5",
+      "goal": "Get rich safely.",
+      "do": [
+        "Last-hit troopers, then shoot the soul orb that pops out to secure it. Shoot enemy orbs to deny them.",
+        "Spend souls whenever you're back at a shop — unspent souls do nothing.",
+        "When your wave is pushed in, break nearby crates or clear Small Haunts (from 2:00) and come back.",
+        "Grab a bridge powerup at 5:00 if it's close and safe (heavy melee)."
+      ],
+      "avoid": ["Chasing kills under the enemy Guardian.", "Fighting with no stamina left to dash away."]
+    },
+    {
+      "id": "mid",
+      "name": "Mid game",
+      "from": 600,
+      "to": 1500,
+      "color": "#f6d155",
+      "goal": "Group up and trade objectives.",
+      "do": [
+        "Be near the Soul Urn at 10:00 and every 5 min after (Yellow side first, then alternating).",
+        "Push Guardians after 12:00 — they're at their weakest. Each Guardian unlocks that lane's Walker.",
+        "Each Walker your team kills gives everyone an extra item slot.",
+        "Contest the Unstable Rift (~11:00, then ~every 7 min) when the team is nearby.",
+        "Take the Mid-Boss only when the enemy team is dead or far away — and break all 3 crystals."
+      ],
+      "avoid": ["Farming alone while your team fights 5v6.", "Starting Mid-Boss with low HP and no vision."]
+    },
+    {
+      "id": "late",
+      "name": "Late game",
+      "from": 1500,
+      "to": null,
+      "color": "#ff5d73",
+      "goal": "Don't throw. Every death costs over a minute.",
+      "do": [
+        "Move as a group; let the wave reach the objective before you hit it.",
+        "Base Guardians (2 per lane) must fall before the Shrines can be hit. Both Shrines down → the Patron becomes vulnerable.",
+        "At half HP the Patron becomes the Weakened Patron — it can only be damaged from inside its pit, and defenders in the pit make it resistant.",
+        "After a won team fight, push. After a lost one, defend and wait for respawns."
+      ],
+      "avoid": ["Walking alone into fog.", "Fighting the enemy while they have Rejuvenator credits and you don't."]
+    }
+  ]
+}

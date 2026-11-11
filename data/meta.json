@@ -1,0 +1,15 @@
+{
+ "fetchedAt": "2026-11-04T00:18:04.634Z",
+ "patchLabel": "Halloween 2026 + Gameplay Update",
+ "patchDate": "2026-10-30",
+ "counts": {
+  "heroes": 44,
+  "items": 156
+ },
+ "sources": [
+  {
+   "label": "deadlock-api.com — Game Data API (MIT)",
+   "url": "https://api.deadlock-api.com/docs"
+  }
+ ]
+}

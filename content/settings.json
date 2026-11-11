@@ -1,0 +1,113 @@
+{
+  "asOfPatch": "Oct 30 2026 (Halloween + Gameplay Update)",
+  "method": "Default keys come from a PC controls list. Settings are recommendations from two 2026 setup guides and are opinions, not stats. Each card names its guide.",
+  "sources": [
+    { "id": "shack", "label": "Shacknews: Deadlock PC controls & keybindings (Aug 26 2024)", "url": "https://www.shacknews.com/article/141162/deadlock-pc-controls-keybindings" },
+    { "id": "dexerto", "label": "Dexerto: Best Deadlock keyboard & mouse settings (updated Jul 15 2026)", "url": "https://dexerto.com/gaming/best-deadlock-keyboard-mouse-settings-2876092" },
+    { "id": "metabot", "label": "Metabot.gg: Best Deadlock settings and setup (updated Oct 15 2026)", "url": "https://metabot.gg/en/deadlock/guides/deadlock-best-settings-and-setup-guide" }
+  ],
+  "flags": [
+    "The default key list comes from a guide published Aug 26 2024. It hasn't been checked against the current in-game Settings → Hotkeys tab, and defaults may have changed since then.",
+    "Setting names follow the guides' wording. The in-game menu labels may differ."
+  ],
+  "groups": [
+    { "id": "move", "label": "Movement", "color": "var(--gold)" },
+    { "id": "combat", "label": "Combat", "color": "var(--weapon)" },
+    { "id": "ability", "label": "Abilities", "color": "var(--spirit)" },
+    { "id": "item", "label": "Items", "color": "var(--vitality)" },
+    { "id": "comms", "label": "Comms", "color": "var(--sapphire)" },
+    { "id": "ui", "label": "Menus & UI", "color": "var(--muted)" }
+  ],
+  "binds": [
+    { "id": "fwd", "group": "move", "action": "Move forward", "label": "W", "keys": ["W"], "src": "shack" },
+    { "id": "back", "group": "move", "action": "Move backward", "label": "S", "keys": ["S"], "src": "shack" },
+    { "id": "left", "group": "move", "action": "Strafe left", "label": "A", "keys": ["A"], "src": "shack" },
+    { "id": "right", "group": "move", "action": "Strafe right", "label": "D", "keys": ["D"], "src": "shack" },
+    { "id": "jump", "group": "move", "action": "Jump / mantle", "label": "Space", "keys": ["Space"], "src": "shack" },
+    { "id": "djump", "group": "move", "action": "Double jump", "label": "Space, Space", "keys": ["Space"], "src": "shack" },
+    { "id": "dash", "group": "move", "action": "Dash", "label": "Left Shift", "keys": ["LShift"], "src": "shack" },
+    { "id": "airdash", "group": "move", "action": "Air dash", "label": "Space, then Left Shift", "keys": ["Space", "LShift"], "src": "shack" },
+    { "id": "dashjump", "group": "move", "action": "Dash jump", "label": "Left Shift, then Space", "keys": ["LShift", "Space"], "src": "shack" },
+    { "id": "crouch", "group": "move", "action": "Crouch / slide", "label": "Left Ctrl", "keys": ["LCtrl"], "src": "shack" },
+
+    { "id": "fire", "group": "combat", "action": "Fire", "label": "Left click", "keys": ["M1"], "src": "shack" },
+    { "id": "zoom", "group": "combat", "action": "Zoom", "label": "Right click", "keys": ["M2"], "src": "shack" },
+    { "id": "reload", "group": "combat", "action": "Reload", "label": "R", "keys": ["R"], "src": "shack" },
+    { "id": "melee", "group": "combat", "action": "Melee", "label": "Q", "keys": ["Q"], "src": "shack" },
+    { "id": "parry", "group": "combat", "action": "Parry / throw held item", "label": "F", "keys": ["F"], "src": "shack" },
+
+    { "id": "ab1", "group": "ability", "action": "Ability 1–4", "label": "1 · 2 · 3 · 4", "keys": ["1", "2", "3", "4"], "src": "dexerto", "flag": true, "note": "Dexerto lists these but doesn't say they're the defaults, and the Shacknews list leaves them out." },
+    { "id": "cancel", "group": "ability", "action": "Cancel ability", "label": "Space", "keys": ["Space"], "src": "shack" },
+
+    { "id": "it1", "group": "item", "action": "Item 1", "label": "Z", "keys": ["Z"], "src": "shack" },
+    { "id": "it2", "group": "item", "action": "Item 2", "label": "X", "keys": ["X"], "src": "shack" },
+    { "id": "it3", "group": "item", "action": "Item 3", "label": "C", "keys": ["C"], "src": "shack" },
+    { "id": "it4", "group": "item", "action": "Item 4", "label": "V", "keys": ["V"], "src": "shack" },
+
+    { "id": "ping", "group": "comms", "action": "Ping", "label": "Y or mouse wheel", "keys": ["Y", "M3"], "src": "shack", "flag": true, "note": "The source row is garbled. Dexerto has Ping on Mouse 3." },
+    { "id": "wheel", "group": "comms", "action": "Chat wheel (hold, pick 1 of 8)", "label": "Hold mouse wheel", "keys": ["M3"], "src": "shack" },
+    { "id": "ptt", "group": "comms", "action": "Push to talk", "label": "T", "keys": ["T"], "src": "shack" },
+    { "id": "chatteam", "group": "comms", "action": "Team chat", "label": "Enter", "keys": ["Enter"], "src": "shack" },
+    { "id": "chatall", "group": "comms", "action": "All chat", "label": "Shift + Enter", "keys": ["LShift", "Enter"], "src": "shack" },
+
+    { "id": "shop", "group": "ui", "action": "Open shop", "label": "B", "keys": ["B"], "src": "shack" },
+    { "id": "score", "group": "ui", "action": "Scoreboard", "label": "Tab", "keys": ["Tab"], "src": "shack" },
+    { "id": "info", "group": "ui", "action": "Extra info", "label": "Left Alt", "keys": ["LAlt"], "src": "shack" },
+    { "id": "cursor", "group": "ui", "action": "Toggle free cursor", "label": "J", "keys": ["J"], "src": "shack" },
+    { "id": "console", "group": "ui", "action": "Dev console", "label": "F7", "keys": ["F7"], "src": "shack" }
+  ],
+  "firstChanges": {
+    "src": "metabot",
+    "intro": "Start with the defaults, then make three changes:",
+    "items": [
+      "Cap your framerate at a rate your PC holds steady.",
+      "Raise brightness until dark interiors are readable.",
+      "Move your escape ability onto an easy key, such as E, F or a mouse button."
+    ]
+  },
+  "settings": [
+    {
+      "id": "cast",
+      "title": "Ability casting",
+      "icon": "✦",
+      "recs": [
+        { "setting": "Casting mode", "value": "Quick Cast", "why": "The ability fires as soon as you press the key, with no second click.", "src": "dexerto" },
+        { "setting": "Active item casting", "value": "Instant Cast", "why": "Hover an ally and you see whether the item will land.", "src": "dexerto" },
+        { "setting": "Cancel abilities with ability key", "value": "Off", "why": "Dexerto's setup.", "src": "dexerto" }
+      ]
+    },
+    {
+      "id": "aim",
+      "title": "Mouse & camera",
+      "icon": "◎",
+      "recs": [
+        { "setting": "Mouse sensitivity", "value": "0.33 at 400 DPI", "why": "Low sensitivity gives arm-driven precision.", "src": "dexerto" },
+        { "setting": "Sensitivity (alt. view)", "value": "Moderate at 800 DPI", "why": "Fast enough to turn and face a gank, steady enough at range.", "src": "metabot" },
+        { "setting": "Y-axis scaling", "value": "1", "why": "Vertical and horizontal aim feel identical.", "src": "dexerto" },
+        { "setting": "Camera FOV", "value": "90", "why": "Dexerto says 90 (maxed). Metabot says widen it as far as stays comfortable.", "src": "dexerto" }
+      ]
+    },
+    {
+      "id": "see",
+      "title": "Seeing enemies",
+      "icon": "◐",
+      "recs": [
+        { "setting": "Brightness", "value": "Raise it", "why": "Dark interiors should be readable.", "src": "metabot" },
+        { "setting": "Motion blur", "value": "Off", "why": "Metabot recommends it.", "src": "metabot" },
+        { "setting": "Crosshair colour", "value": "Cyan, bright green or pink", "why": "High contrast, with a small centre and high opacity.", "src": "metabot" },
+        { "setting": "Active item slot popup", "value": "Off", "why": "Keeps a UI element off your view mid-fight.", "src": "dexerto" }
+      ]
+    },
+    {
+      "id": "perf",
+      "title": "Display & performance",
+      "icon": "▣",
+      "recs": [
+        { "setting": "Resolution", "value": "Native", "why": "Lower textures or shadows before you lower resolution.", "src": "metabot" },
+        { "setting": "Framerate cap", "value": "What your PC holds steady", "why": "Stable frametimes feel better than a high number that stutters in fights.", "src": "metabot" },
+        { "setting": "Window mode", "value": "Borderless Window", "why": "It costs only a sliver of latency compared with exclusive fullscreen.", "src": "dexerto" },
+        { "setting": "NVIDIA Reflex", "value": "Enabled", "why": "Cuts input lag.", "src": "dexerto" }
+      ]
+    }
+  ]
+}

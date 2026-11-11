@@ -1,0 +1,70 @@
+{
+  "asOfPatch": "Oct 30 2026 (Halloween + Gameplay Update)",
+  "method": "Written for new players from the game's rules (wiki pages and patch notes listed below). These are habits, not statistics.",
+  "sources": [
+    { "label": "Wiki: Souls", "url": "https://deadlock.wiki/Souls" },
+    { "label": "Wiki: Death (respawn)", "url": "https://deadlock.wiki/Death" },
+    { "label": "Wiki: Walker", "url": "https://deadlock.wiki/Walker" },
+    { "label": "Wiki: Patron", "url": "https://deadlock.wiki/Patron" },
+    { "label": "Wiki: Rejuvenator", "url": "https://deadlock.wiki/Rejuvenator" },
+    { "label": "Wiki: Soul Urn", "url": "https://deadlock.wiki/Soul_Urn" }
+  ],
+  "flags": ["Exactly when Walker backdoor protection turns off isn't verified here — the tip only says to push with your troopers."],
+  "groups": [
+    {
+      "id": "lane",
+      "title": "Laning",
+      "icon": "⚔",
+      "items": [
+        { "id": "orbs", "bad": "Last-hitting troopers but not shooting the soul orb", "fix": "Kill → shoot the orb. Unsecured orbs can be denied by the enemy." },
+        { "id": "deny", "bad": "Never denying enemy orbs", "fix": "When an enemy last-hits, shoot their orb first. It slows their whole build." },
+        { "id": "dive", "bad": "Chasing kills under the enemy Guardian early", "fix": "Before 12:00 Guardians are tough and hit hard. Let the enemy go." },
+        { "id": "idle", "bad": "Standing in an empty lane", "fix": "Wave pushed? Break a crate or clear a Small Haunt (from 2:00), then return." }
+      ]
+    },
+    {
+      "id": "econ",
+      "title": "Souls & items",
+      "icon": "◈",
+      "items": [
+        { "id": "bank", "bad": "Walking around with thousands of unspent souls", "fix": "Spend at every shop visit. Items only help once they're bought." },
+        { "id": "ap", "bad": "Forgetting to upgrade abilities", "fix": "Check for unspent ability points after leveling — upgrades are big power spikes." },
+        { "id": "slots", "bad": "Not filling extra slots after a Walker dies", "fix": "Each Walker your team kills gives everyone one more item slot." },
+        { "id": "sell", "bad": "Selling items after leaving the shop", "fix": "You get 100% back only if you haven't left the shop area since buying; otherwise 50%." }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "Map awareness",
+      "icon": "⌖",
+      "items": [
+        { "id": "minimap", "bad": "Never looking at the minimap", "fix": "Glance every few seconds. Missing enemies = someone is coming for you." },
+        { "id": "urn", "bad": "Missing the Soul Urn", "fix": "10:00 and every 5 min after — the timer on the Match Timeline tab counts it down." },
+        { "id": "zip", "bad": "Walking back to lane after respawning", "fix": "Take the zipline; it's much faster." },
+        { "id": "veil", "bad": "Walking through Cosmic Veils blind", "fix": "You can't see enemies on the grey side of a veil. Expect an ambush." }
+      ]
+    },
+    {
+      "id": "fight",
+      "title": "Fighting",
+      "icon": "✦",
+      "items": [
+        { "id": "stamina", "bad": "Using every dash to get into a fight", "fix": "Keep one stamina charge to escape." },
+        { "id": "melee", "bad": "Never using heavy melee or parry", "fix": "Heavy melee hits hard and breaks crystals/crates; parry counters enemy melee." },
+        { "id": "rejuv", "bad": "Fighting a team that has Rejuvenator credits", "fix": "Their deaths come back at full HP after 3s. Wait it out (3 min) or take Mid-Boss yourself." },
+        { "id": "alone", "bad": "Dying alone late game", "fix": "After 30:00 a death costs 70–90s. Group up and don't walk into fog alone." }
+      ]
+    },
+    {
+      "id": "obj",
+      "title": "Objectives",
+      "icon": "♜",
+      "items": [
+        { "id": "backdoor", "bad": "Hitting a Walker without your troopers", "fix": "Walkers have backdoor protection (65% less damage, 65 HP/s regen). Push with your wave.", "flag": true },
+        { "id": "crystals", "bad": "Killing Mid-Boss and leaving the crystals", "fix": "It drops 3 crystals around the pit. Heavy-melee each one for a Rejuvenator." },
+        { "id": "patron", "bad": "Shooting the Weakened Patron from outside its pit", "fix": "Phase 2 only takes damage from inside the pit. Go in together." },
+        { "id": "chase", "bad": "Chasing after a won fight instead of pushing", "fix": "Enemies are dead for a while — hit a Guardian, Walker or Shrine now." }
+      ]
+    }
+  ]
+}
